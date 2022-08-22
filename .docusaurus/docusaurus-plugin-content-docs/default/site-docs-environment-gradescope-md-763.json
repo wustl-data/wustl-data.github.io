@@ -1,0 +1,20 @@
+{
+  "unversionedId": "environment/gradescope",
+  "id": "environment/gradescope",
+  "title": "gradescope",
+  "description": "",
+  "source": "@site/docs/environment/gradescope.md",
+  "sourceDirName": "environment",
+  "slug": "/environment/gradescope",
+  "permalink": "/environment/gradescope",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/environment/gradescope.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git workflow",
+    "permalink": "/environment/git"
+  }
+}

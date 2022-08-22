@@ -1,0 +1,102 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Course Assignments",
+        "href": "/assignments",
+        "docId": "assignments/index"
+      },
+      {
+        "type": "link",
+        "label": "Pre-Class Exercises",
+        "href": "/exercises",
+        "docId": "exercises/index"
+      },
+      {
+        "type": "link",
+        "label": "Helpful Resources",
+        "href": "/resources",
+        "docId": "resources/index"
+      },
+      {
+        "type": "category",
+        "label": "Environment Information",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Initial Environment Setup",
+            "href": "/environment/initial_setup",
+            "docId": "environment/initial_setup"
+          },
+          {
+            "type": "link",
+            "label": "Git workflow",
+            "href": "/environment/git",
+            "docId": "environment/git"
+          },
+          {
+            "type": "link",
+            "label": "gradescope",
+            "href": "/environment/gradescope",
+            "docId": "environment/gradescope"
+          }
+        ],
+        "href": "/environment"
+      }
+    ]
+  },
+  "docs": {
+    "assignments/index": {
+      "id": "assignments/index",
+      "title": "Course Assignments",
+      "description": "Assignment 0",
+      "sidebar": "tutorialSidebar"
+    },
+    "environment/git": {
+      "id": "environment/git",
+      "title": "Git workflow",
+      "description": "Please review this document carefully to learn about what to do before and after each assignment as this class requires more than just simple cloning and pushing (each assignment must be on different branches of the same repo, you need to fetch from the main repo before starting each assignment, etc.)",
+      "sidebar": "tutorialSidebar"
+    },
+    "environment/gradescope": {
+      "id": "environment/gradescope",
+      "title": "gradescope",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "environment/index": {
+      "id": "environment/index",
+      "title": "Environment Information",
+      "description": "Assignment 0",
+      "sidebar": "tutorialSidebar"
+    },
+    "environment/initial_setup": {
+      "id": "environment/initial_setup",
+      "title": "Initial Environment Setup",
+      "description": "Follow these steps to get a working Python environment up and running that should prepare you for the programming assignments in this course. These are suggestions to get you started -- you may use your own environment setups if you are more familiar with them (i.e. Anaconda distribution, pure-Windows setups, etc.). If you are confident using your own environment, you may skip to Clone This Repository to test out our workflow.",
+      "sidebar": "tutorialSidebar"
+    },
+    "exercises/index": {
+      "id": "exercises/index",
+      "title": "Pre-Class Exercises",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "resources/index": {
+      "id": "resources/index",
+      "title": "Helpful Resources",
+      "description": "Tutorial 1",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

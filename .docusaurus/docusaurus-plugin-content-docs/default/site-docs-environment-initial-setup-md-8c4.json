@@ -1,0 +1,27 @@
+{
+  "unversionedId": "environment/initialSetup",
+  "id": "environment/initialSetup",
+  "title": "initialSetup",
+  "description": "",
+  "source": "@site/docs/environment/initialSetup.md",
+  "sourceDirName": "environment",
+  "slug": "/environment/initialSetup",
+  "permalink": "/environment/initialSetup",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/environment/initialSetup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Environment Information",
+    "permalink": "/environment"
+  },
+  "next": {
+    "title": "Git workflow",
+    "permalink": "/environment/git"
+  }
+}

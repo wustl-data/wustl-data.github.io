@@ -1,0 +1,29 @@
+{
+  "unversionedId": "environment/index",
+  "id": "environment/index",
+  "title": "Environment Information",
+  "description": "Assignment 0",
+  "source": "@site/docs/environment/index.md",
+  "sourceDirName": "environment",
+  "slug": "/environment",
+  "permalink": "/environment",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/environment/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "slug": "/environment",
+    "title": "Environment Information",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Helpful Resources",
+    "permalink": "/resources"
+  },
+  "next": {
+    "title": "Initial Environment Setup",
+    "permalink": "/environment/initial_setup"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "environment/os",
+  "id": "environment/os",
+  "title": "os",
+  "description": "This is an apple 🍎",
+  "source": "@site/docs/environment/os.mdx",
+  "sourceDirName": "environment",
+  "slug": "/environment/os",
+  "permalink": "/environment/os",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/environment/os.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "gradescope",
+    "permalink": "/environment/gradescope"
+  }
+}

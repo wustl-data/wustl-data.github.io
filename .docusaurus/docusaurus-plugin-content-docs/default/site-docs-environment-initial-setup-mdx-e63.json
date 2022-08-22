@@ -1,0 +1,28 @@
+{
+  "unversionedId": "environment/initial_setup",
+  "id": "environment/initial_setup",
+  "title": "Initial Environment Setup",
+  "description": "Follow these steps to get a working Python environment up and running that should prepare you for the programming assignments in this course. These are suggestions to get you started -- you may use your own environment setups if you are more familiar with them (i.e. Anaconda distribution, pure-Windows setups, etc.). If you are confident using your own environment, you may skip to Clone This Repository to test out our workflow.",
+  "source": "@site/docs/environment/initial_setup.mdx",
+  "sourceDirName": "environment",
+  "slug": "/environment/initial_setup",
+  "permalink": "/environment/initial_setup",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/environment/initial_setup.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Initial Environment Setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Environment Information",
+    "permalink": "/environment"
+  },
+  "next": {
+    "title": "Git workflow",
+    "permalink": "/environment/git"
+  }
+}
