@@ -17,6 +17,8 @@ export default {
   ],
   "organizationName": "wustl-data",
   "projectName": "wustl-data.github.io",
+  "trailingSlash": false,
+  "deploymentBranch": "gh-pages",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -100,8 +102,8 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/links"
+              "label": "Assignments",
+              "to": "/assignments/"
             }
           ]
         },
@@ -109,16 +111,8 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "Piazza",
+              "href": "https://piazza.com/wustl/fall2022/cse314adcds510/home"
             }
           ]
         },
@@ -126,12 +120,8 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/wustl-data"
             }
           ]
         }
