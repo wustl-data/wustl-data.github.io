@@ -1,0 +1,36 @@
+---
+title: "Preconfigured or manual?"
+sidebar_position: 2
+---
+
+Exciting developments in Docker containerization standards have brought [*Dev Containers*](https://code.visualstudio.com/docs/remote/containers) to the VS Code IDE. This is a new feature that allows for easy distribution of isolated and preconfigured development environment, fully equipped for VS Code with a single click. While new technologies can come with a bit of a learning curve, this setup *should* provide a more convenient way to [standardize environment setup](https://cs.harvard.edu/malan/publications/iticse22.pdf) across students in the class with many different laptop models and programming backgrounds.
+
+You are encouraged to use the Dev Container configuration if you find it convenient, but it is not required. If you run into blockers or simply prefer to set up your own environment, you can do so by following the instructions in the [manual setup](manual-setup) section.
+
+
+:::note
+
+Regardless of your chosen setup method, you should be familiar with each of the components of our tech stack. If you're unsure, it might be a good idea to perform the walkthrough first, and then try to set up Dev Containers when you have a better grasp on the tooling.
+
+:::
+
+Consult the table below to choose an approach that fits your needs, but feel free to switch approaches at any point during the semester. If you would like further detail about these considerations, see [Consideration Details](#considerations) below.
+
+Select the tab that matches the OS on your host machine (i.e., your laptop) and examine the various restrictions and capabilities of the different approaches.
+
+import ComparisonTableWin from '@site/src/components/ComparisonTableWin'
+import ComparisonTableOsx from '@site/src/components/ComparisonTableOsx'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="windows" label="Windows" default>
+    <ComparisonTableWin />
+  </TabItem>
+  <TabItem value="osx" label="Mac OSX">
+    <ComparisonTableOsx />
+  </TabItem>
+</Tabs>
+<ComparisonTable />
+
+

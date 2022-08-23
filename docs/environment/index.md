@@ -1,6 +1,6 @@
 ---
 slug: '/environment'
-title: 'Environment Information'
+title: 'Development Environment'
 sidebar_position: 4
 ---
 

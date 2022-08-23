@@ -1,0 +1,28 @@
+{
+  "unversionedId": "environment/tech_stack/container-or-manual/container-or-manual",
+  "id": "environment/tech_stack/container-or-manual/container-or-manual",
+  "title": "Preconfigured or manual?",
+  "description": "Exciting developments in Docker containerization standards have brought Dev Containers to the VS Code IDE. This is a new feature that allows for easy distribution of isolated and preconfigured development environment, fully equipped for VS Code with a single click. While new technologies can come with a bit of a learning curve, this setup should provide a more convenient way to standardize environment setup across students in the class with many different laptop models and programming backgrounds.",
+  "source": "@site/docs/environment/tech_stack/container-or-manual/container-or-manual.mdx",
+  "sourceDirName": "environment/tech_stack/container-or-manual",
+  "slug": "/environment/tech_stack/container-or-manual/",
+  "permalink": "/environment/tech_stack/container-or-manual/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/environment/tech_stack/container-or-manual/container-or-manual.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Preconfigured or manual?",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Initial Setup",
+    "permalink": "/environment/initial_setup"
+  },
+  "next": {
+    "title": "Dev Container Setup",
+    "permalink": "/environment/tech_stack/container-or-manual/devcontainer"
+  }
+}

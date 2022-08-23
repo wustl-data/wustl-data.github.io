@@ -2,7 +2,7 @@
   "unversionedId": "environment/initial_setup",
   "id": "environment/initial_setup",
   "title": "Initial Environment Setup",
-  "description": "Follow these steps to get a working Python environment up and running that should prepare you for the programming assignments in this course. These are suggestions to get you started -- you may use your own environment setups if you are more familiar with them (i.e. Anaconda distribution, pure-Windows setups, etc.). If you are confident using your own environment, you may skip to Clone This Repository to test out our workflow.",
+  "description": "Students interested in an experimental approach to environment setup may skip to the Dev Container section at the bottom of this page. However, all students are encouraged to execute this tutorial in its entirety to a) gain familiarity with the various tools and technologies used in this course and b) sharpen your debugging skills.",
   "source": "@site/docs/environment/initial_setup.mdx",
   "sourceDirName": "environment",
   "slug": "/environment/initial_setup",

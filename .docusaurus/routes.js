@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'b1c'),
+    component: ComponentCreator('/', '8a1'),
     routes: [
       {
         path: '/assignments',
@@ -77,7 +77,49 @@ export default [
       },
       {
         path: '/environment/initial_setup',
-        component: ComponentCreator('/environment/initial_setup', 'd0e'),
+        component: ComponentCreator('/environment/initial_setup', '50f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/environment/initial_setup',
+        component: ComponentCreator('/environment/initial_setup', '16e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/environment/initial_setup/container-or-manual/',
+        component: ComponentCreator('/environment/initial_setup/container-or-manual/', '0e7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/environment/initial_setup/container-or-manual/devcontainer',
+        component: ComponentCreator('/environment/initial_setup/container-or-manual/devcontainer', '6bf'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/environment/initial_setup/container-or-manual/manual',
+        component: ComponentCreator('/environment/initial_setup/container-or-manual/manual', '769'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/environment/tech_stack/container-or-manual/',
+        component: ComponentCreator('/environment/tech_stack/container-or-manual/', '7a5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/environment/tech_stack/container-or-manual/devcontainer',
+        component: ComponentCreator('/environment/tech_stack/container-or-manual/devcontainer', '882'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/environment/tech_stack/container-or-manual/manual',
+        component: ComponentCreator('/environment/tech_stack/container-or-manual/manual', '0d8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

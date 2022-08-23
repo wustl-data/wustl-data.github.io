@@ -1,7 +1,7 @@
 {
   "unversionedId": "environment/index",
   "id": "environment/index",
-  "title": "Environment Information",
+  "title": "Development Environment",
   "description": "Assignment 0",
   "source": "@site/docs/environment/index.md",
   "sourceDirName": "environment",
@@ -14,7 +14,7 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "slug": "/environment",
-    "title": "Environment Information",
+    "title": "Development Environment",
     "sidebar_position": 4
   },
   "sidebar": "tutorialSidebar",
@@ -23,7 +23,7 @@
     "permalink": "/resources"
   },
   "next": {
-    "title": "Initial Environment Setup",
+    "title": "Initial Setup",
     "permalink": "/environment/initial_setup"
   }
 }

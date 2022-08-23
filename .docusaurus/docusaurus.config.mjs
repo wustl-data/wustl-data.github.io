@@ -12,7 +12,7 @@ export default {
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon-32x32.png",
   "stylesheets": [
-    "https://fonts.googleapis.com/css2?family=Libre+Baskerville",
+    "https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto",
     "http://fonts.cdnfonts.com/css/source-sans-pro"
   ],
   "organizationName": "wustl-data",
@@ -136,7 +136,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 Washington University in St Louis. Built with Docusaurus."
     },
     "prism": {
       "theme": {

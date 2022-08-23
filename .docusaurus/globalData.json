@@ -31,7 +31,42 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "environment/initial_setup",
+              "id": "environment/initial_setup/container-or-manual/container-or-manual",
+              "path": "/environment/initial_setup/container-or-manual/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "environment/initial_setup/container-or-manual/devcontainer",
+              "path": "/environment/initial_setup/container-or-manual/devcontainer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "environment/initial_setup/container-or-manual/manual",
+              "path": "/environment/initial_setup/container-or-manual/manual",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "environment/initial_setup/index",
+              "path": "/environment/initial_setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "environment/tech_stack/container-or-manual/container-or-manual",
+              "path": "/environment/tech_stack/container-or-manual/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "environment/tech_stack/container-or-manual/devcontainer",
+              "path": "/environment/tech_stack/container-or-manual/devcontainer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "environment/tech_stack/container-or-manual/manual",
+              "path": "/environment/tech_stack/container-or-manual/manual",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "environment/tech_stack/index",
               "path": "/environment/initial_setup",
               "sidebar": "tutorialSidebar"
             },

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "environment/initial_setup/identify-os",
+  "id": "environment/initial_setup/identify-os",
+  "title": "Identify your OS",
+  "description": "Select the tab that matches the OS on your host machine (i.e., your laptop) to view considerations for choosing a development OS:",
+  "source": "@site/docs/environment/initial_setup/identify-os.mdx",
+  "sourceDirName": "environment/initial_setup",
+  "slug": "/environment/initial_setup/identify-os",
+  "permalink": "/environment/initial_setup/identify-os",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/environment/initial_setup/identify-os.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Identify your OS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manual Environment Setup",
+    "permalink": "/environment/initial_setup/container-or-manual/manual"
+  },
+  "next": {
+    "title": "Git workflow",
+    "permalink": "/environment/git"
+  }
+}
