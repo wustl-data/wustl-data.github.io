@@ -15,14 +15,22 @@ const config = {
   favicon: 'img/favicon-32x32.png',
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto',
-    'https://fonts.cdnfonts.com/css/source-sans-pro'
+    'https://fonts.cdnfonts.com/css/source-sans-pro',
+    'https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.css'
 
   ],
-  scripts: [{
-    src: "https://cdn.datacamp.com/dcl-react.js.gz",
-    type: "text/javascript",
-    async: true
-  }],
+  scripts: [
+    {
+      src: "https://cdn.datacamp.com/dcl-react.js.gz",
+      type: "text/javascript",
+      async: true
+    },
+    {
+      src: "https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.js",
+      type: "text/javascript"
+    },
+    "/js/fullcalendar.js"
+  ],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'wustl-data', // Usually your GitHub org/user name.

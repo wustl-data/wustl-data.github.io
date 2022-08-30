@@ -29,11 +29,11 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      description="Official course website for CSE314A / DCDS510 at WUSTL">
+    <Layout description="Official course website for CSE314A / DCDS510 at WUSTL">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <div id="calendar"></div>
       </main>
     </Layout>
   );

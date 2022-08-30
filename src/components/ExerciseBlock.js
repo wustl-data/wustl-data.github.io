@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 
+
 export default function ExerciseBlock() {
-    useEffect(initAddedDCLightExercises);
+    useEffect(window["initAddedDCLightExercises"]);
     return (
         <div data-datacamp-exercise data-lang="python">
             <code data-type="pre-exercise-code">
