@@ -15,9 +15,9 @@ const config = {
   favicon: 'img/favicon-32x32.png',
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto',
-    'http://fonts.cdnfonts.com/css/source-sans-pro',
+    'https://fonts.cdnfonts.com/css/source-sans-pro',
   ],
-  scripts: ["https://cdn.datacamp.com/dcl-react.js.gz"],
+  // scripts: ["https://cdn.datacamp.com/dcl-react.js.gz"],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'wustl-data', // Usually your GitHub org/user name.
@@ -80,15 +80,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Assignments',
-                to: '/assignments/',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [
