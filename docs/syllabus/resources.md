@@ -1,0 +1,31 @@
+---
+title: Other Resources
+---
+
+## Confidential Resources for Instances of Sexual Assault, Sex Discrimination, Sexual Harassment, Dating Violence, Domestic Violence, or Stalking
+The University is committed to offering reasonable academic accommodations (e.g. a no-contact order, course changes) to students who are victims of relationship or sexual violence, regardless of whether they seek criminal or disciplinary action. If a student needs to explore options for medical care, protections, or reporting, or would like to receive individual counseling services, there are free, confidential support resources and professional counseling services available through the Relationship and Sexual Violence Prevention (RSVP) Center. If you need to request such accommodations, please contact RSVP to schedule an appointment with a confidential and licensed counselor. Although information shared with counselors is confidential, requests for accommodations will be coordinated with the appropriate University administrators and faculty. The RSVP Center is located in Seigle Hall, Suite 435, and can be reached at rsvpcenter@wustl.edu or (314) 935-3445. For after-hours emergency response services, call (314) 935-6666 or (314) 935-5555 and ask to speak with an RSVP Counselor on call. See: RSVP Center.
+
+## Bias Reporting and Support System (BRSS)
+The University has a process through which students, faculty, staff, and community members who have experienced or witnessed incidents of bias, prejudice, or discrimination against a student can report their experiences to the University’s Bias Report and Support System (BRSS) team.  See: brss.wustl.edu.
+
+## Mental Health Services
+Mental Health Services’ professional staff members work with students to resolve personal and interpersonal difficulties, many of which can affect a student’s academic experience. These include conflicts with or worry about friends or family, concerns about eating or drinking patterns, and feelings of anxiety, depression, and thoughts of suicide.  See: https://students.wustl.edu/mental-health-services/.
+
+The Division of Student Affairs also offers a telehealth program to students called TimelyCare. While students are encouraged to visit the Habif Health and Wellness Center during business hours, this additional service also provides after-hours access to medical care and 24/7 access to mental telehealth care across the United States, with no cost at the time of your visit. Students who pay the Health and Wellness fee are eligible for this service.
+
+Additionally, see the mental health services offered through the RSVP Center listed above.
+
+## WashU Cares
+WashU Cares specializes providing referrals and resources, both on, and off campus for mental health, medical health, financial and academic resources by using supportive case management. WashU Cares also receives reports on students who may need help connecting to resources or whom a campus partner is concerned about. If you are concerned about a student or yourself, you can file a report here: https://washucares.wustl.edu/.
+
+## The Writing Center
+The Writing Center offers free writing support to all Washington University undergraduate and graduate students. Staff members will work with students on any kind of writing project, including essays, writing assignments, personal statements, theses, and dissertations. They can help at any stage of the process, including brainstorming, developing and clarifying an argument, organizing evidence, or improving style. Instead of simply editing or proofreading papers, the tutors will ask questions and have a conversation with the writer about their ideas and reasoning, allowing for a higher order revision of the work. They will also spend some time looking at sentence level patterns to teach students to edit their own work. The Center is located in Mallinckrodt and open Sunday through Thursday from 11:00 am to 9:00 pm and Friday from 11:00 am to 5:00 pm. Students are seen primarily by appointment, but walk-ins will be accepted as the schedule allows. Both in-person and online appointments are available. To make an appointment, go to writingcenter.wustl.edu.  Email:  writingcenter.wustl.edu.
+
+## The Learning Center
+The Learning Center provides support programs, including course-specific mentoring and academic skills coaching (study and test-taking strategies, time management, etc.), that enhance undergraduate students’ academic progress. Contact them at learningcenter@wustl.edu or visit ctl.wustl.edu/learningcenter to find out what support they may offer for your classes.
+
+## Center for Diversity and Inclusion (CDI)
+The Center for Diversity and Inclusion (CDI) supports and advocates for undergraduate, graduate, and professional school students from underrepresented and/or marginalized populations, collaborates with campus and community partners, and promotes dialogue and social change to cultivate and foster a supportive campus climate for students of all backgrounds, cultures, and identities.  See:   https://diversityinclusion.wustl.edu/.
+
+## Gephardt Institute
+Students play an essential role in a vibrant and functioning democracy! In addition to the November 2022 midterm elections, state and local elections will take place throughout the year and have a direct impact on our communities. You can register to vote, request an absentee ballot, confirm your polling location, and get Election Day reminders at http://wustl.turbovote.org for any of the 50 states and Washington D.C. WashU students are considered Missouri residents, and eligible student voters can register to vote in the state of Missouri or their home state. The deadline to register to vote in Missouri in this year’s midterm election is Wednesday, October 12, 2022. The election will take place on Tuesday, November 8, 2022.  If you are ineligible to vote, you can participate by encouraging your friends to register and vote, engaging your peers in local issues, and taking part in other civic and community engagement activities. For more resources on voting and other civic and community engagement opportunities, please visit http://washuvotes.wustl.edu and http://gephardtinstitute.wustl.edu.

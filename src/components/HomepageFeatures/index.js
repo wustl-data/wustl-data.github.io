@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        For brevity, we will simply refer to this course as <b>Data Wrangling</b>. My goal is to equip every student with modern, job-ready data manipulation skills and best practices which will empower you to handle your future data wrangling needs  effectively and confidently across many domains. Join the class discussion on <a href='https://piazza.com/wustl/fall2022/cse314adcds510/home'>Piazza</a> or check out our <a href='resources'>Resources</a> page to get started with course concepts. Yee-Haw! <h4>- Professor Schlichenmeyer</h4>
+        For brevity, we will simply refer to this course as <b>Data Wrangling</b>. My goal is to equip every student with modern, job-ready data manipulation skills and best practices which will empower you to confidently handle your future data wrangling needs across many domains. Join the class discussion on <a href='https://piazza.com/wustl/fall2022/cse314adcds510/home'>Piazza</a> or check out our <a href='resources'>Resources</a> page to get a head start with course concepts. Yee-Haw!
       </>
     ),
   },
