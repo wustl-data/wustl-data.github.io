@@ -72,7 +72,6 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-
           { label: 'Piazza', href: 'https://piazza.com/wustl/fall2022/cse314adcds510/home', position: 'right' },
           { label: 'GradeScope', href: 'https://www.gradescope.com/courses/409551', position: 'right' }
         ],
