@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/assignments">
-            Check the Syllabus 📅
+            to="/syllabus">
+            Check out the Syllabus 📅
           </Link>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      description="Description will go into a meta tag in <head />">
+      description="Official course website for CSE314A / DCDS510 at WUSTL">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

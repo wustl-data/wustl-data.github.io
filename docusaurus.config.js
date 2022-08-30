@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Data Wrangling @ WashU',
-  tagline: 'CSE 314A / DCDS 510',
+  title: 'Welcome, Wranglers!',
+  tagline: 'CSE 314A | DCDS 510',
   url: 'https://wustl-data.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -17,7 +17,7 @@ const config = {
     'https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto',
     'http://fonts.cdnfonts.com/css/source-sans-pro',
   ],
-
+  scripts: ["https://cdn.datacamp.com/dcl-react.js.gz"],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'wustl-data', // Usually your GitHub org/user name.
@@ -66,10 +66,7 @@ const config = {
           src: 'img/color-long-washu.svg',
         },
         items: [
-          { type: 'doc', docId: "assignments/index", label: 'Assignments', position: 'left' },
-          { type: 'doc', docId: "exercises/index", label: 'Exercises', position: 'left' },
-          { type: 'doc', docId: "resources/index", label: 'Resources', position: 'left' },
-          { type: 'doc', docId: "environment/index", label: 'Environment', position: 'left' },
+          { to: 'modules', label: 'Modules', position: 'left' },
           {
             href: 'https://github.com/wustl-data',
             label: 'GitHub',

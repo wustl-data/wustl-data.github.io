@@ -4,44 +4,21 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: (
+      <> Welcome to <b>Data Manipulation and Management</b> (CSE314A) and <b>Introduction to Data Wrangling</b> (DCDS510)! </>),
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        For brevity, we will simply refer to this course as <b>Data Wrangling</b>. My goal is to equip every student with modern, job-ready data manipulation skills and best practices which will empower you to handle your future data wrangling needs  effectively and confidently across many domains. Join the class discussion on <a href='https://piazza.com/wustl/fall2022/cse314adcds510/home'>Piazza</a> or check out our <a href='resources'>Resources</a> page to get started with course concepts. Yee-Haw! <h4>- Professor Schlichenmeyer</h4>
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
+    <div className={clsx('col')}>
+      <div className="text--left padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>

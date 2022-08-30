@@ -1,4 +1,13 @@
-# Website
+# CSE 314 / DCDS 510 Docs
+
+This repository contains the source code for the documentation found on our [website](https://wustl-data.github.io), rendered using GitHub Pages.
+
+## Suggest edits
+
+If you have corrections or additions to the documentation, please do not hesitate to make a pull request. Use the "Edit this page" button on the website, or navigate to the file in the GitHub interface. Most core content is in the `docs/` directory as markdown files. 
+
+
+## Docusaurus
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
