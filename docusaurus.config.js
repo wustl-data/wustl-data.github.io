@@ -81,7 +81,7 @@ const config = {
         items: [
           { to: 'modules', label: 'Modules', position: 'left' },
           {
-            href: 'https://github.com/wustl-data',
+            href: 'https://classroom.github.com/classrooms/95954148-data-wrangling-fall-2022',
             label: 'GitHub',
             position: 'right',
           },
@@ -106,7 +106,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/wustl-data',
+                href: 'https://classroom.github.com/classrooms/95954148-data-wrangling-fall-2022',
               },
             ],
           },

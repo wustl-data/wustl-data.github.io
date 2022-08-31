@@ -1,0 +1,7 @@
+position: 2
+label: "Syllabus"
+link:
+  type: "generated-index"
+  title: "Syllabus"
+  slug: "/syllabus"
+

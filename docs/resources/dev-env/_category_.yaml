@@ -1,0 +1,9 @@
+position: 1
+label: "Development Environment"
+link:
+  type: "generated-index"
+  title: "Development Environment"
+  slug: "/resources/dev-env"
+customProps: 
+  description: "In this section, we briefly go over the main programming languages, tools, and frameworks that we will rely on in this course."
+  
