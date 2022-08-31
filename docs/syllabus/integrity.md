@@ -3,6 +3,12 @@ title: Academic Integrity
 sidebar_position: 2
 ---
 
+## Course Policy
+
+Coding assignments must represent your own work. You may discuss high-level approaches to problems with your classmates, but you must acknowledge your collaborators (including Piazza discussions) in the README of your submitted assignment. Do not otherwise copy, borrow, or share coding implementations of your work. Assignments will be run through an automated similarity checker and flagged if suspicious.
+
+## University Policy
+
 Effective learning, teaching and research all depend upon the ability of members of the academic community to trust one another and to trust the integrity of work that is submitted for academic credit or conducted in the wider arena of scholarly research. Such an atmosphere of mutual trust fosters the free exchange of ideas and enables all members of the community to achieve their highest potential.
 
 In all academic work, the ideas and contributions of others must be appropriately acknowledged and work that is presented as original must be, in fact, original. Faculty, students and administrative staff all share the responsibility of ensuring the honesty and fairness of the intellectual environment at Washington University in St. Louis.

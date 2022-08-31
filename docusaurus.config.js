@@ -80,6 +80,7 @@ const config = {
         },
         items: [
           { to: 'modules', label: 'Modules', position: 'left' },
+          { to: 'resources', label: 'Resources', position: 'left' },
           {
             href: 'https://classroom.github.com/classrooms/95954148-data-wrangling-fall-2022',
             label: 'GitHub',
@@ -116,6 +117,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['powershell'],
       },
 
     }),

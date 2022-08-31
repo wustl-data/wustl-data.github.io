@@ -6,7 +6,8 @@ function ComparisonTableWindows() {
         <Table striped bordered hover size="sm">
             <thead>
                 <tr>
-                    <th></th>
+                    <th>Feature</th>
+                    <th>affects:</th>
                     <th>Dev Container<br />(1-Click)</th>
                     <th>Manual Setup - Pure Windows</th>
                     <th>Manual Setup - WSL</th>
@@ -14,28 +15,32 @@ function ComparisonTableWindows() {
             </thead>
             <tbody>
                 <tr>
-                    <td>Development OS</td>
+                    <td><b>Development OS</b></td>
+                    <td>OS GUI, filesystem</td>
                     <td>Ubuntu</td>
-                    <td>Windows or WSL</td>
+                    <td>Windows</td>
                     <td>Ubuntu</td>
                 </tr>
                 <tr>
-                    <td>IDE</td>
+                    <td><b>IDE</b></td>
+                    <td>GUI-based versions of tools e.g. git and customizable IDE settings</td>
                     <td>VS Code</td>
                     <td>Any</td>
                     <td>VS Code or PyCharm</td>
                 </tr>
                 <tr>
-                    <td>Python</td>
+                    <td><b>Python</b></td>
+                    <td>Right version installed?</td>
                     <td>Preinstalled</td>
                     <td>Need to configure</td>
                     <td>Need to configure</td>
                 </tr>
                 <tr>
-                    <td>Default Shell</td>
-                    <td>Zsh</td>
-                    <td>Powershell</td>
-                    <td>Bash</td>
+                    <td><b>Default Shell</b></td>
+                    <td>Shell syntax often found in online tutorials/compatibility with some software packages</td>
+                    <td>Zsh (Unix)</td>
+                    <td>Powershell or Git Bash</td>
+                    <td>Bash (Unix)</td>
                 </tr>
             </tbody>
         </Table>
