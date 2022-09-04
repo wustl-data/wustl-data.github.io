@@ -81,11 +81,6 @@ const config = {
         items: [
           { to: 'modules', label: 'Modules', position: 'left' },
           { to: 'resources', label: 'Resources', position: 'left' },
-          {
-            href: 'https://classroom.github.com/classrooms/95954148-data-wrangling-fall-2022',
-            label: 'GitHub',
-            position: 'right',
-          },
           { label: 'Piazza', href: 'https://piazza.com/wustl/fall2022/cse314adcds510/home', position: 'right' },
           { label: 'GradeScope', href: 'https://www.gradescope.com/courses/409551', position: 'right' }
         ],
@@ -99,15 +94,6 @@ const config = {
               {
                 label: 'Piazza',
                 href: 'https://piazza.com/wustl/fall2022/cse314adcds510/home',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://classroom.github.com/classrooms/95954148-data-wrangling-fall-2022',
               },
             ],
           },

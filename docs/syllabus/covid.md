@@ -1,5 +1,6 @@
 ---
 title: COVID-19 Health and Safety Protocols
+sidebar_position: 4
 ---
 
 Students experiencing symptoms consistent with COVID-19 or concerned about a possible exposure should contact Habif Health and Wellness Center (314 935-6666) to arrange for testing as indicated. If instructed by Habif to quarantine or isolate, students should notify their instructor as soon as possible by forwarding the email they received from Habif. Any accommodation needs for COVID-related absence not covered in an instructor’s standard course policies should be discussed between the student and instructor.  
