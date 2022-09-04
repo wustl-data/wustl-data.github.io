@@ -8,7 +8,7 @@ This page of supplemental resources is made available for those who are interest
 ### Shell commands
 - [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) - Course/E-book
 - [When laziness is efficient: Make the most of your command line](https://stackoverflow.blog/2020/02/12/when-laziness-is-efficient-make-the-most-of-your-command-line/) - Blog
-- [Oh My Zsh!](https://ohmyz.sh/) custom theming and plugins for your command line
+- [Oh My Zsh!](https://ohmyz.sh/) - Tool
 
 ### Git
 - [Learn Enough Git to be Dangerous](https://www.learnenough.com/git-tutorial?gclid=CjwKCAiA3L6PBhBvEiwAINlJ9OBBNHPbhBX9HQYSgt31YG4Uov1XXs9reEkbvBesLuGeoh1eKYQjgxoC5hgQAvD_BwE) - Course/E-book 
@@ -26,6 +26,7 @@ This page of supplemental resources is made available for those who are interest
 
 ### General
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 <!-- 
 ### APIs:
 - [Traits of a good REST API](https://smartbear.com/learn/api-design/traits-of-a-good-rest-api/) - Blog -->
