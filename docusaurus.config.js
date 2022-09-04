@@ -105,7 +105,11 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['powershell'],
       },
-
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
     }),
 
 };
