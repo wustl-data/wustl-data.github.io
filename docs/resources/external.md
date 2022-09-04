@@ -3,7 +3,7 @@ title: 'External Resources'
 sidebar_position: 3
 ---
 
-This page of supplemental resources is made available for those who are interested in deeper information about a topic. These resources may be helpful for different students in different ways based on background and learning style, but are more in-depth than what is necessary to succeed in the class. In other words, whether you're confused about a topic or eager to learn more, these resources may point you in the right direction. I will add to this list as each module is released.
+This page of supplemental resources is made available for those who are interested in deeper information about a topic. These resources may be helpful for different students in different ways based on background and learning style, but are more in-depth than what is necessary to succeed in the class. In other words, whether you're confused about a topic or eager to learn more, these resources may point you in the right direction. I will keep this list updated as each module is released.
 
 ### Shell commands
 - [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial) - Course/E-book
@@ -17,8 +17,8 @@ This page of supplemental resources is made available for those who are interest
 
 ### Python
 - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - Documentation
-- [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0) - YouTube video
 - [IPython Tutorial](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html) (Interactive Python shell) - Documentation
+- [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0) - YouTube video
 - [The Case Against the Jupyter Notebook](https://towardsdatascience.com/the-case-against-the-jupyter-notebook-d4da17e97243) - Blog post
 
 ### Pandas
