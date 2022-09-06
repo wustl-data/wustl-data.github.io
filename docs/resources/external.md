@@ -24,7 +24,7 @@ This page of supplemental resources is made available for those who are interest
 ### Pandas
 - [An Opinionated Guide to Pandas](https://www.youtube.com/playlist?list=PLgJhDSE2ZLxaENZWWF_VOUa5886KiUd15) - YouTube series
 
-### General
+### Documentation
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 <!-- 

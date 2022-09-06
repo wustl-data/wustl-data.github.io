@@ -1,0 +1,84 @@
+---
+title: Exercise
+sidebar_position: 7
+---
+
+## E0: Trying out alternative approaches on new branches
+
+### Introduction
+
+Let's get the juices flowing and follow a git workflow in action in a Replit.
+
+**Context**: You're attempting to create a basic data pipeline with two scripts: `data-generator.py` and `data-save.py`. You're not quite sure how you want to implement `data-generator.py` yet, but you decide to save the implementation details until after you "set the stage" with git (nice).
+
+**Concept**: Staged files will remain in your active branch even after you switch branches.
+
+**Application**: Share working components of your solution across branches without making a commit. 
+
+### Replit
+
+Open the *Replit* below. Check out the project's contents, then read the description below of how the project's state came to be.
+
+<iframe width="100%" height="600px" src="https://replit.com/team/data-wrangling/Staging-files"></iframe>
+
+### Overview of project state/history
+
+The process I used to create the starter code is outlined briefly below so you can observe a practical example of project management and setup. If you have trouble following along, create your own *Repl* and code along with the steps.
+
+1. First I "bootstrapped" the project with Replit's default Python project template. This came with a `pyproject.toml` file, a `main.py` file, and some Replit configuration files.
+
+ :::note
+
+ You don't usually see `Poetry` treated as the default package manager for Python projects, but Replit seems to know what's up.
+
+ :::
+
+2. I ran `git status` to see the state of the project in git and discovered that git tracking hadn't even been initialized yet:
+
+ ```bash
+ ~/Staging-files$ git status
+ fatal: not a git repository (or any parent up to mount point /home/runner)
+ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+ ```
+ :::note
+
+ In this code snippet, I show the full *shell prompt* as it's seen in the Replit shell: `~/Staging-files$`. The `~/Staging-files` shows us the current working directory on the host computer (in this case, the little Replit server that is spun up for us) and the `$` indicates that the shell is ready for you to give it a command. The tilde (`~`) indicates the `HOME` directory which varies from machine to machine, allowing us to abstract away OS-level file schemes while working with paths in our shell prompt. The `Staging-files` directory was created and automatically chosen as the initial working directory by Replit based on the project name I gave to it. 
+ 
+ In future code snippets, you may see a simple `$` to more concisely indicate a command prompt. But usually, I will also leave the `$` off as long as it is clear from the context that the commands are intended for a bash shell; this makes it easier to use the "copy" button included on code snippets in modern documentation renderers.
+
+ :::
+
+
+3. I initialized the project as a *git* repository with `git init`. This creates a `.git` directory in the project's root directory that contains everything *git* needs to track the project's state. 
+
+ :::info
+
+ The dot prefix for this directory hides this folder from your OS's file browser unless you have it set to **Show Hidden Files**. It also hides the folder from terminal output when you run the `ls` command without the `--all`/`-a` option. The folder itself also does not show up in your tracked files, e.g. with `git status`, lest things get too meta and we get sucked into a wormhole.
+
+ :::
+
+4. I tried `git status` again. I saw that the `venv` folder was being tracked. We definitely don't want our virtual environment files in source control. These files are usually large, come in large quantities, and don't tell us anything about the actual code that we're interested in tracking. These files are useful for running code on your machine, not for sharing your ideas with others on GitHub. Even worse, committing these files into your codebase can drown out the changes of interest if you're sharing your code with others -- in other words, changes in the code file that you actually want your collaborator to review would be drowned out by the addition of thousands of files to the commit (and your `venv` files will be changing frequently, so they might sneak in to a commit if you're not careful). Worst of all, including them in your repo can mess up other peoples' virtual environments if the contents of the folder dont match what they have installed on their machine.
+
+ I also noticed the project has no `.gitignore` file. The `.gitignore` file, broadly speaking, is simply a text file that lists [*`glob` patterns*](https://en.wikipedia.org/wiki/Glob_(programming)) that specify the file paths we want to keep out of git tracking/source control. The glob pattern `venv` matches all files and folders in the project that are named `venv`. Adding this glob pattern to `.gitignore` excludes these files and folders from git tracking. Thus, I created a `.gitignore` file and added the line `venv` to it.
+
+4. I ran `git status` again and confirmed that the `venv` folder is no longer being tracked. I also see that the `.gitignore` file is listed as an untracked file. All of the other files look ok to be added. I add untracked and tracked files alike with the command `git add .`. 
+
+ :::tip
+ the `.` is a glob pattern that matches all files and folders in the current directory. You should also understand the difference between *absolute* and *relative* file paths. For example, run `git add ../myscript.py` if `myscript.py` is in the folder above the current working directory (the one where you invoke `git add`). Run `git add module/script.py` if `script.py` is in a folder called `module` in the current working directory. Avoid using absolute file paths whenever possible as they are not portable across machines. In Unix shells, absolute file paths begin with a leading slash that indicates the root of the file system. In Windows, absolute file paths begin with a hard drive location such as `C:`
+ :::
+
+ :::caution Avoid the temptation of the `git add .` shortcut!
+
+ `git add .` is undoubtedly a command that is run a lot. It is also a command that can cause a lot of problems if you let down your guard. It is a shortcut that adds all files and folders in the current directory to the staging area. This is a problem because it can add files that you don't want to be tracked, like the `venv` folder. If you then accidentally commit your code without reviewing the files you have staged, disaster may strike. It is a good idea to get into the habit of running `git status` before you run `git add` and specifying each file or folder to make sure you are only adding the files you want to add. Run `git diff <glob>` if you need to be reminded what changes were made to a file or files before you stage. Two big tips to prevent this from getting tedious:
+   1. **Keep your commits small by committing often**.
+   2. Use the ability of `git add` to add multiple glob patterns at once simply by providing the command with multiple arguments, *but only after you have verified they are ready for staging*.
+   e.g.:
+   ```bash
+   git add my_module/ README.md script.py
+   ```
+
+    This adds all of the changes in the `my_module` folder, the `README.md` file, and the `script.py` file to the staging area.
+
+    3. Finally, I find the command `git commit -am 'Commit Message'` to be a decent compromise between workflow speed and discipline. It adds *all modified and tracked files* to staging and commits them all in the same command.
+
+ :::
