@@ -15,7 +15,7 @@ A green circle will be provided intermittently in the assignment instructions as
 
 Use the Faker library and Pandas to generate a CSV with simulated personal data.
 
-1. Create a script in your root of your project called `fake_records.py`. Write a function `generate` in this module that generates 1000 records with the following labels: `First Name`, `Last Name`, `Street Address`, `Phone Number` 🟢. Your function should organize the output using standard Python data structures (e.g. lists, dictionaries, tuples, etc.).
+1. Create a script in your root of your project called `fake_records.py`. Using the [Faker](https://faker.readthedocs.io/en/master/index.html) data generator, write a function `generate` in this module that generates 1000 records with the following labels: `First Name`, `Last Name`, `Street Address`, `Phone Number` 🟢. Your function should organize the output using standard Python data structures (e.g. lists, dictionaries, tuples, etc.).
 
 2. Create a function `save` in your `fake_records` module that takes the output of your function above as input, uses Pandas to convert the records to a CSV file in a root-level directory named `data` called `fake_records.csv`.
 
