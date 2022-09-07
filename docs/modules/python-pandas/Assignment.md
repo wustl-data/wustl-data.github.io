@@ -3,6 +3,8 @@ title: Assignment 1
 sidebar_position: 2
 ---
 
+Due: 9/13/2022 5:00 PM
+
 Grab your starter code from GitHub Classroom using [this link](https://classroom.github.com/a/XxyXydik). If you need them, follow the instructions in the `README` to help you get your starter code set up successfully.
 
 :::tip
@@ -15,7 +17,13 @@ A green circle will be provided intermittently in the assignment instructions as
 
 Use the Faker library and Pandas to generate a CSV with simulated personal data.
 
-1. (40 points) - Create a script in your root of your project called `fake_records.py`. Using the [Faker](https://faker.readthedocs.io/en/master/index.html) data generator, write a function `generate` in this module that generates 1000 records with the following labels: `First Name`, `Last Name`, `Street Address`, `Phone Number` 🟢. Your function should organize the output using standard Python data structures (e.g. lists, dictionaries, tuples, etc.).
+1. (40 points) - Create a script in your root of your project called `fake_records.py`. Using the [Faker](https://faker.readthedocs.io/en/master/index.html) data generator, write a function `generate` in this module that generates 1000 records with the following labels: `First Name`, `Last Name`, `Street Address`, `Phone Number` 🟢. Your function should organize the output using your choice of standard Python data structures (e.g. lists, dictionaries, tuples, etc.).
+
+ :::tip
+
+ Using Poetry, we can install new Python packages using the `poetry add` command. For more info, see the [Poetry section](/resources/dev-env/manual#poetry) in the manual setup docs or view the [Poetry documentation](https://python-poetry.org/docs/basic-usage/).
+
+ :::
 
 2. (20 points) - Create a function `save` in your `fake_records` module that takes the output of your function above as input, uses Pandas to convert the records to a CSV file in a root-level directory named `data` called `fake_records.csv`.
 
