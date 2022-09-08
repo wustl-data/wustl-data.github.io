@@ -18,3 +18,9 @@ from code.my_functions import my_function
 # note the dot syntax to represent slashes in a file path
 # you can use relative paths with the .. syntax
 ```
+
+:::note Note (added 9/8)
+
+In order for the above to be true, the module you wish to import must be *installed* on your system. There are many ways to accomplish this, but the easiest is to ensure your module is in a folder that matches the `"name"` field setting in your `pyproject.toml`.
+
+:::

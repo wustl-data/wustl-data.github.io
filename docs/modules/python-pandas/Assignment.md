@@ -25,6 +25,8 @@ Use the Faker library and Pandas to generate a CSV with simulated personal data.
 
  :::
 
+  **Important addition 9/7/22: to make this easier to set up with the autograder, please seed your Faker instance with your student ID number, included as a variable in your module named `id`.**
+
 2. (20 points) - Create a function `save` in your `fake_records` module that takes the output of your function above as input, uses Pandas to convert the records to a CSV file in a root-level directory named `data` called `fake_records.csv`.
 
 3. Modify your `.gitignore` file to ignore the `data` directory 🟢.
