@@ -18,7 +18,7 @@ This page of supplemental resources is made available for those who are interest
 ### Python
 - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) - Documentation
 - [IPython Tutorial](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html) (Interactive Python shell) - Documentation
-- [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0) - YouTube video
+- [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0) - Conference Talk
 - [The Case Against the Jupyter Notebook](https://towardsdatascience.com/the-case-against-the-jupyter-notebook-d4da17e97243) - Blog post
 
 ### Pandas
