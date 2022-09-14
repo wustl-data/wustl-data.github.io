@@ -9,8 +9,8 @@ function ComparisonTableWindows() {
                     <th>Feature</th>
                     <th>affects:</th>
                     <th>Dev Container<br />(1-Click)</th>
-                    <th>Manual Setup - Pure Windows</th>
                     <th>Manual Setup - WSL</th>
+                    <th>Manual Setup - Pure Windows</th>
                 </tr>
             </thead>
             <tbody>
@@ -18,15 +18,15 @@ function ComparisonTableWindows() {
                     <td><b>Development OS</b></td>
                     <td>OS GUI, filesystem</td>
                     <td>Ubuntu</td>
-                    <td>Windows</td>
                     <td>Ubuntu</td>
+                    <td>Windows</td>
                 </tr>
                 <tr>
                     <td><b>IDE</b></td>
                     <td>GUI-based versions of tools e.g. git and customizable IDE settings</td>
                     <td>VS Code</td>
-                    <td>Any</td>
                     <td>VS Code or PyCharm</td>
+                    <td>Any</td>
                 </tr>
                 <tr>
                     <td><b>Python</b></td>
@@ -39,8 +39,8 @@ function ComparisonTableWindows() {
                     <td><b>Default Shell</b></td>
                     <td>Shell syntax often found in online tutorials/compatibility with some software packages</td>
                     <td>Zsh (Unix)</td>
-                    <td>Powershell or Git Bash</td>
                     <td>Bash (Unix)</td>
+                    <td>Powershell or Git Bash</td>
                 </tr>
             </tbody>
         </Table>
