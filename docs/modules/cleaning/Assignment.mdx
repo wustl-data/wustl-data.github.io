@@ -1,0 +1,79 @@
+---
+title: Assignment 2
+sidebar_position: 2
+---
+
+Due: 9/23/2022 5:00 PM
+
+Grab your starter code from GitHub Classroom using [this link](https://classroom.github.com/a/XxyXydik). If you need them, follow the instructions in the `README` to help you get your starter code set up successfully.
+
+:::tip
+
+A green circle will be provided intermittently in the assignment instructions as a friendly reminder to commit your code.
+
+:::
+
+## Cleaning Campaign Finance Data
+
+> There's a new sheriff in town... and they're running for re-election! Imagine you've been hired as a political campaign's data director. The campaign wants you to organize and analyze Missouri campaign contribution data so that the candidate can efficiently target donors for their campaign. 
+
+### Getting started
+The Missouri Ethics Commission (MEC) is responsible for collecting and distributing campaign finance information for state and municipal elections. They provide a download tool ([link for the curious](https://mec.mo.gov/MEC/Campaign_Finance/CF_ContrCSV.aspx)) which allows you to manually download a CSV of campaign contribution data for a given year's MEC reports. I have downloaded this data set for every year since 2016 and reuploaded the collection as a compressed file on WUSTL Box.
+
+Download and unzip the file using one of the following methods depending on your preference to use the command line or use GUIs:
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+
+<Tabs>
+	<TabItem value="Command Line">
+		<CodeBlock language="shell">
+			{`curl -L https://wustl.box.com/shared/static/q5lxh0wcj6jz6bj0fchtbfvxk4159063.gz | tar xz --directory data/raw`}
+		</CodeBlock>
+		<details>
+			<summary>
+				Demystifying the command
+			</summary>
+			cURL fetches the compressed tarball from the URL. The <code>-L</code> flag (short for <code>--location</code>) allows the command to follow the download redirect. The download is then <i>piped</i> (<code>|</code>) to the <code>tar</code> command which <i>extracts</i> (<code>x</code>) the <i>zipped</i> folder (<code>z</code>) and places the output in <code>data/raw/</code>.
+		</details>
+	</TabItem>
+	<TabItem value="GUI">
+		<a href="https://wustl.box.com/s/khyvqw1sj6vpuxsb4tbyrjy2e7vj6ivr">Click here to view the file on WUSTL Box</a>. Download the files, unzip them, and copy/paste them into `data/raw/` within your project directory.
+	</TabItem>
+</Tabs>
+
+In a module `mec.clean`:
+
+1. (20 points) - Write a function `rename` that renames the files in `data/raw` using `os.rename()`. Rename the files to their appropriate year using the maximum year found in the `Date` column. Use [`glob`](https://docs.python.org/3/library/glob.html) to obtain the paths for the CSV files.
+1. (20 Points) - Write a function `combine` that combines the CSVs in `data/raw`, using the appropriate arguments to `read_csv` to assign the correct dtypes upon load and assign an index using the appropriate ID column for the granularity of the data. Use `pd.concat` to combine your dataframes into a single dataframe.  The function should save the combined data in a file `data/contributions.csv`. The function should also return the combined DataFrame. 
+    > Note: This data set should be manageable in-memory, however if this is not the case for your machine you may work on this assignment using a subset of the files provided -- the overall logic and code should be exactly the same and will not affect the autograder.
+
+	Requirements:
+	- Data read and combined correctly into a single dataframe
+	- `read_csv` assigns correct dtypes, sets correct column as index, and removes the timestamp `0:00` from the `Date` column.
+	- File reads from and writes to correct location and contains the entire dataset.
+
+2. (60 Points) - Write a function `clean(addresses)` that takes a DataFrame containing address data and returns a DataFrame with the addresses cleaned.
+    
+    > Any sensible analysis using this data must involve some cleaning. Since the MEC simply relays the data submitted by the campaigns as entered, entities may not be represented the same way across multiple entries. We can imagine complex procedures to clean the full data set for each field (to account for nicknames, joint contributions, typos, synonyms, etc). However, we will stick to cleaning address data since the data adheres more closely to commonly-understood standards.
+    
+    Using Pandas' `str` methods, implement your function as follows:
+    
+    Requirements:
+    - All strings are capitalized and has no extra white space, new line characters 
+    (e.g " &nbsp;&nbsp;&nbsp;&nbsp;  Hello World &nbsp;    \n"  --> "HELLO WORLD")
+    - All punctuation is removed
+    - Every word is converted to its abbreviation, when possible. 
+	   (All words on [this page](https://abbreviations.yourdictionary.com/articles/usps-street-and-building-abbreviations.html), under "Building Abbreviations From the Post Office" and "Most Common Street Abbreviations" sections; and also the pair "Saint" --> "St")
+    - Data in `State` column must be verified and all values that do not correspond to an U.S state must be changed to the empty string "". 
+    - For simplicity, handle data in the `Zip` column as follows:
+	    - If data has a hyphen `-` (e.g. 1234-56789), use the numbers before `-` as the zip code. 
+	    - If data is not an integer (e.g. "200.0" or "Hello"), replace it with the empty string ""
+	    - If data is a integer with more than 5 digits, keep the first 5.
+	    - If data is a integer with less than 5 digits, pad "0" chars to the front so that it has 5 digits. 
+	    (e.g. "1234" --> "01234")
+	    
+	 -  After cleaning, merge `"Address 1"` and `"Address 2"` into a single column called `"Street Address"` 
+	    > You can achieve this easily using the "+" operation and space " " in between.
+     
