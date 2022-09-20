@@ -38,15 +38,15 @@ import CodeBlock from '@theme/CodeBlock';
 In a module `mec.clean`:
 
 1. (20 points) - Write a function `rename` that renames the files in `data/raw` using `os.rename()`. Rename the files to their appropriate year using the most frequent year found in the `Date` column. Use [`glob`](https://docs.python.org/3/library/glob.html) to obtain the paths for the CSV files.
-1. (20 Points) - Write a function `combine` that combines the CSVs in `data/raw`, using the appropriate arguments to `read_csv` to assign the correct dtypes upon load and assign `CD1_A ID` as the index for the data. Use `pd.concat` to combine your dataframes into a single dataframe.  The function should save the combined data in a file `data/contributions.csv`. The function should also return the combined DataFrame. 
+2. (20 Points) - Write a function `combine` that combines the CSVs in `data/raw`, using the appropriate arguments to `read_csv` to assign the correct dtypes upon load and assign `CD1_A ID` as the index for the data. Use `pd.concat` to combine your dataframes into a single dataframe.  ~~The function should save the combined data in a file `data/contributions.csv`.~~ The function should return the combined DataFrame. 
     > Note: This data set should be manageable in-memory, however if this is not the case for your machine you may work on this assignment using a subset of the files provided -- the overall logic and code should be exactly the same and will not affect the autograder.
 
 	Requirements:
 	- Data read and combined correctly into a single dataframe
 	- `read_csv` assigns correct dtypes, sets correct column as index, and removes the timestamp `0:00` from the `Date` column.
-	- File reads from and writes to correct location and contains the entire dataset.
+	- Function reads from correct location and contains the entire dataset.
 
-2. (60 Points) - Write a function `clean(addresses)` that takes a DataFrame containing address data and returns a DataFrame with the addresses cleaned.
+3. (60 Points) - Write a function `clean(addresses)` that takes a DataFrame containing address data and returns a DataFrame with the addresses cleaned.
     
     > Any sensible analysis using this data must involve some cleaning. Since the MEC simply relays the data submitted by the campaigns as entered, entities may not be represented the same way across multiple entries. We can imagine complex procedures to clean the full data set for each field (to account for nicknames, joint contributions, typos, synonyms, etc). However, we will stick to cleaning address data since the data adheres more closely to commonly-understood standards.
     
