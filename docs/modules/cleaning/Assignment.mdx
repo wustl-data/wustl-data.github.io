@@ -56,14 +56,37 @@ In a module `mec.clean`:
     - All strings are capitalized and has no extra white space, new line characters 
     (e.g " &nbsp;&nbsp;&nbsp;&nbsp;  Hello World &nbsp;    \n"  --> "HELLO WORLD")
     - All punctuation is removed
-    - Every word is converted to its abbreviation, when possible. 
-	   (All words on [this page](https://abbreviations.yourdictionary.com/articles/usps-street-and-building-abbreviations.html), under "Building Abbreviations From the Post Office" and "Most Common Street Abbreviations" sections; and also the pair "Saint" --> "St")
+    - ~~Every word is converted to its abbreviation, when possible. (All words on [this page](https://abbreviations.yourdictionary.com/articles/usps-street-and-building-abbreviations.html), under "Building Abbreviations From the Post Office" and "Most Common Street Abbreviations" sections; and also the pair "Saint" --> "St")~~
+	- All words in the [USPS-provided List of Street Suffixes](https://github.com/wustl-data/hw2-hotfix/blob/main/data/suffixes.json) are converted to their abbreviations.
+		
+		:::tip
+
+		Use `json.load` to convert the JSON file to a Python dict. You're welcome to import the data however you wish, but here are two options I suggest:
+		- Option 1: Use `requests.get` to retrieve the JSON file from the repo `hotfix-hw2` linked above. You'll need to use the `Raw` link on GitHub to get the URL to the raw json file. Adjust the .gitignore structure to match the repo.
+		- Option 2: Fetch upstream fixes from the `hotfix-hw2` repository using the following `git` steps:
+			<details>
+			<summary>Fetch and merge from `upstream`</summary>
+
+			1. Add the hotfix repo as a `remote` to your repository named `upstream`:
+			```bash
+			git remote add upstream https://github.com/wustl-data/hw2-hotfix.git
+
+			```
+			2. Set the remote that your `main` branch is tracking to `hotfix-hw2`:
+			```
+			git branch --set-upstream-to upstream/main
+			```
+			3. Confirm your fetched changes match what you expect:
+			```
+			git diff main upstream/main
+			```
+			</details>
     - Data in `State` column must be verified and all values that do not correspond to an U.S state must be changed to the empty string "". 
-    - For simplicity, handle data in the `Zip` column as follows:
-	    - If data has a hyphen `-` (e.g. 1234-56789), use the numbers before `-` as the zip code. 
-	    - If data is not an integer (e.g. "200.0" or "Hello"), replace it with the empty string ""
-	    - If data is a integer with more than 5 digits, keep the first 5.
-	    - If data is a integer with less than 5 digits, pad "0" chars to the front so that it has 5 digits. 
+    - Handle data in the `Zip` column as follows:
+	    - If ~~data~~ element has a hyphen `-` (e.g. 1234-56789), use the numbers before `-` as the zip code. 
+	    - If ~~data is not an integer~~ element contains non-digits (e.g. "200.0" or "Hello"), replace it with the empty string ""
+	    - If ~~data is a integer with~~ element contains only digits and more than 5 digits, keep the first 5.
+	    - If ~~data is a integer with~~ element contains only digits less than 5 digits, pad "0" chars to the front so that it has 5 digits. 
 	    (e.g. "1234" --> "01234")
 	    
 	 -  After cleaning, merge `"Address 1"` and `"Address 2"` into a single column called `"Street Address"` 
