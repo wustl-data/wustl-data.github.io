@@ -21,7 +21,7 @@ A simple and quick way to get a summary of a data set is to use the `describe` m
 
 #### Pandas profiling
 
-Pandas profiling is a much more advanced version of the `describe` method. It will give us a much more detailed summary of the data set, including the data types, missing values, histograms, and correlation matrices for our data. Use this if you're looking for a more in-depth analysis of your data set.
+The [`pandas-profiling` package](https://pandas-profiling.ydata.ai/docs/master/index.html) is a much more advanced version of the `describe` method. It will give us a much more detailed summary of the data set, including the data types, missing values, histograms, and correlation matrices for our data. Use this if you're looking for a more in-depth analysis of your data set.
 
 ### Data Visualization
 
