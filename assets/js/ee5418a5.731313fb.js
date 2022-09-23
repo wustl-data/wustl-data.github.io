@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwrangling=self.webpackChunkwrangling||[]).push([[937],{8143:e=>{e.exports=JSON.parse('{"title":"Helpful Resources","slug":"/resources","permalink":"/resources","navigation":{"previous":{"title":"Assignment 2","permalink":"/modules/cleaning/Assignment"},"next":{"title":"Development Environment","permalink":"/resources/dev-env"}}}')}}]);

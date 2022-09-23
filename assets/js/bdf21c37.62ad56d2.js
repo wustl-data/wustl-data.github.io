@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwrangling=self.webpackChunkwrangling||[]).push([[7255],{3962:l=>{l.exports=JSON.parse('{"title":"Syllabus","slug":"/syllabus","permalink":"/syllabus","navigation":{"previous":{"title":"GitHub Basics","permalink":"/resources/git-github/github"},"next":{"title":"Calendar","permalink":"/syllabus/calendar"}}}')}}]);
