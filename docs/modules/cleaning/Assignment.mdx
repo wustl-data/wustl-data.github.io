@@ -38,6 +38,10 @@ import CodeBlock from '@theme/CodeBlock';
 In a module `mec.clean`:
 
 1. (20 points) - Write a function `rename` that renames the files in `data/raw` using `os.rename()`. Rename the files to their appropriate year using the most frequent year found in the `Date` column. Use [`glob`](https://docs.python.org/3/library/glob.html) to obtain the paths for the CSV files.
+	Requirements:
+	- Your `.gitignore` files must be structured so that your repository contains the `data/raw/` directory, but ignores any `.csv` files placed in that directory.
+	- When you rename the files, they should remain in the `data/raw/` folder.
+	- You must analyze the `Date` column using Pandas to determine the most frequent year.
 2. (20 Points) - Write a function `combine` that combines the CSVs in `data/raw`, using the appropriate arguments to `read_csv` to assign the correct dtypes upon load and assign `CD1_A ID` as the index for the data. Use `pd.concat` to combine your dataframes into a single dataframe.  ~~The function should save the combined data in a file `data/contributions.csv`.~~ The function should return the combined DataFrame. 
     > Note: This data set should be manageable in-memory, however if this is not the case for your machine you may work on this assignment using a subset of the files provided -- the overall logic and code should be exactly the same and will not affect the autograder.
 
@@ -50,16 +54,22 @@ In a module `mec.clean`:
     
     > Any sensible analysis using this data must involve some cleaning. Since the MEC simply relays the data submitted by the campaigns as entered, entities may not be represented the same way across multiple entries. We can imagine complex procedures to clean the full data set for each field (to account for nicknames, joint contributions, typos, synonyms, etc). However, we will stick to cleaning address data since the data adheres more closely to commonly-understood standards.
     
-    Using Pandas' `str` methods, implement your function as follows:
+	:::tip
+
+	Effective usage of Pandas' [`str` methods](https://pandas.pydata.org/docs/user_guide/text.html) should make this problem much simpler.
+
+	:::
+
+    Implement your function as follows:
+	
     
     Requirements:
     - All strings are capitalized and has no extra white space, new line characters 
     (e.g " &nbsp;&nbsp;&nbsp;&nbsp;  Hello World &nbsp;    \n"  --> "HELLO WORLD")
     - All punctuation is removed
     - ~~Every word is converted to its abbreviation, when possible. (All words on [this page](https://abbreviations.yourdictionary.com/articles/usps-street-and-building-abbreviations.html), under "Building Abbreviations From the Post Office" and "Most Common Street Abbreviations" sections; and also the pair "Saint" --> "St")~~
-	- All words in the [USPS-provided List of Street Suffixes](https://github.com/wustl-data/hw2-hotfix/blob/main/data/suffixes.json) are converted to their abbreviations.
-		
-
+	- In the `Address 1` column, all words in the [USPS-provided List of Street Suffixes](https://github.com/wustl-data/hw2-hotfix/blob/main/data/suffixes.json) are converted to their abbreviations.
+	- In the `City` column, all instances of the word "SAINT" are converted to "ST"
     - Data in `State` column must be verified and all values that do not correspond to an U.S state must be changed to the empty string "". 
     - Handle data in the `Zip` column as follows:
 	    - If ~~data~~ element has a hyphen `-` (e.g. 1234-56789), use the numbers before `-` as the zip code. 
@@ -68,6 +78,6 @@ In a module `mec.clean`:
 	    - If ~~data is a integer with~~ element contains only digits less than 5 digits, pad "0" chars to the front so that it has 5 digits. 
 	    (e.g. "1234" --> "01234")
 	    
-	 -  After cleaning, merge `"Address 1"` and `"Address 2"` into a single column called `"Street Address"` 
+	-  After cleaning, merge `"Address 1"` and `"Address 2"` into a single column called `"Street Address"` 
 	    > You can achieve this easily using the "+" operation and space " " in between.
      
