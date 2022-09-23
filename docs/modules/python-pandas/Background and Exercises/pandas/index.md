@@ -2,7 +2,7 @@
 title: Pandas
 ---
 
-Pandas, in essence, is a library built on top of NumPy that provides some user-friendly ways to organize and label data. It also provides more sophisticated data manipulation functions than found in NumPy. 
+Pandas, in essence, is a library built on top of NumPy that provides some user-friendly ways to organize and label data. It takes advantage of the speed of Numpy, but also provides more sophisticated data manipulation functions than found in NumPy. 
 
 Take a very quick glance at the [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) to get an idea of the various capbabilities of Pandas.
 
