@@ -11,7 +11,7 @@ This one is usually pretty easy. If we are using a data-oriented programming lan
 
 ### Constraints
 
-We mentioned constraints, both physical and logical, that our data should adhere to for it to be useful and accurate. We should identify data points that do not adhere to these constraints with simple checks (e.g. is number between 0 and 100?) when possible. 
+We mentioned constraints, both physical and logical, that our data should adhere to for it to be useful and accurate. We should identify data points that do not adhere to these constraints with simple checks (e.g. is field `Percentage` between 0 and 100?) when possible. 
 
 Sometimes, constraints are fuzzier. For example, if our data comes from a Gaussian distribution, a value of 4 standard deviations away from the mean may be extremely unlikely, but far from impossible (.1%). However, if we have dozens of data points that are 4 standard deviations away from the mean in a set of hundreds, we may want to investigate further. These sorts of patterns are slightly more difficult to identify, but we can use our intuition and domain knowledge to help us identify them.
 
