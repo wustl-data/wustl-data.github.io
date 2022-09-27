@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Project Goals
 
-The primary goal of this assignment is for your team to construct an interesting problem statement and a data set that can be used to solve that problem statement. You will then use the data set to construct a data pipeline that can be used to analyze the data. You should use your data pipeline to provide a `benchmark` analysis of your problem statement.
+The primary goal of this assignment is for your team to develop a data wrangling pipeline that addresses an interesting problem statement, including a curated data set. You will then use the data set to construct a data pipeline that can be used to analyze the data. You should use your data pipeline to provide a `benchmark` analysis of your problem statement.
 
 ## Scope of project
 
@@ -18,9 +18,9 @@ These specifications above are left intentionally vague so that teams have the f
 
 These are just examples, and feedback will be provided on your progress reports to help you adjust your scope as needed.
 
-## Sample rubric
+## Sample final project rubric
 
-Here is a sample rubric, slightly modified from last semester to evaluate projects. You may expect a similar rubric to be used this semester.
+Here is a [link to a sample *final project* rubric](https://docs.google.com/document/d/1rVTQRFsJ18zJON_LUlQkTaPqqOx9npBtaQkTezaPnwE/edit?usp=sharing), slightly modified from last semester. This should not be considered an official rubric until designated as such on this page.
 
 ## Kaggle competition format
 Is is suggested, but not required, that you use the Kaggle Community Competition guidelines to structure your project. The requirements to submit a Community Competition are good measures you may take to share your data wrangling work with anyone.
@@ -30,10 +30,16 @@ These requirements can be found in Kaggle's documentation [here](https://www.kag
 - Choose a dataset
 - Prepare the dataset
 - Set up scoring
-- Test your competition & optionally set up a benchmark
+- Test your competition & set up a benchmark
+
+:::note
+
+If applicable, your 'benchmark' solution should represent the bare minimum needed to get an analysis going. Your project should not focus on achieving a high benchmark, but creating a fluid data pipleine using your benchmark solution as an example.
+
+:::
 
 :::tip
 
-Projects that follow this format will be eligible for extra credit at the end of the semester--one project will be chosen for 10 points extra credit and the highest competition submission for that project will receive another 10 points extra credit on their project grade.
+In addition to simply having more structure, projects that follow this format will be eligible for extra credit at the end of the semester--one project will be chosen for 10 points extra credit and the highest competition submission for that project will receive another 10 points extra credit on their project grade. It will also be a cool portfolio piece for your team upon graduation.
 
 :::
