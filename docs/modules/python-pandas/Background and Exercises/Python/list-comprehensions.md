@@ -30,7 +30,7 @@ even_numbers = [number for number in numbers if number % 2 == 0]
 
 :::tip
 
-Between list comprehensions and Pandas' set-based syntax, I personally have not written a for-loop in my Python code in years. If you feel the need to use one, it might be worth it to stop and think if your code can be implemented more efficiently.
+Between list comprehensions and Pandas' set-based syntax, it is often worth it to stop and think if your for-loop can be implemented more efficiently.
 
 :::
 

@@ -17,11 +17,15 @@ Describe which course modules your project will cover by pointing to concrete ex
 ## Timeline
 Briefly describe a timeline for your project. Which aspects of your work do you expect to take the longest? Are there any components of your project that depend on other components of your project to be completed first? If your answers to these questions are too generic, you should probably hone in on your problem statement and data sources more.
 
+## Anticipated Roadblocks
+
+Describe any anticipated roadblocks or big question marks in your project proposal and potential ways around them.
+
 ## Example:
 
 ### Problem Domain/Statement
 
-Our group wants to study memes for our group topic.  We found an example blog post that gives an introduction to the kinds of data problems we can pursue in the study of memes. We want to explore how to classify a meme and merge difference sources of meme data such as from Twitter and Reddit.
+Our group wants to study memes for our group topic.  We found an example blog post that gives an introduction to the kinds of data problems we can pursue in the study of memes. We want to explore how to classify memes and merge difference sources of meme data such as from Twitter and Reddit.
 
 We chose this topic because memes are fun and can change the world through humor. Understanding the popularity of memes can be a helpful way to achieve an effective messaging campaign. It also provides a rich, defined data set and translates easily to a problem statement.
 
@@ -37,3 +41,6 @@ Adam has more experience with Python and Pandas, so initially he will split work
 ### Timeline:
 The most important aspect of this project is collecting a useful dataset. We will spend from now until the next progress report honing in on what a useful data set will look like and making sure we are further scoping our problem directly. Once we have all agreed on what our data set should look like, we will finish our own components of the code and collaborate on the project where our components intersect (for example, Charlie might work with Bob on translating the dataset from SQL to Pandas effectively).
 
+### Anticipated Roadblocks
+
+The biggest problem we might face will be the establishment of a training data set that already has the memes classified. We might make the assumption that any image in a certain subreddit can be counted as a meme, while we might pick a different subreddit to find similar non-meme images.
