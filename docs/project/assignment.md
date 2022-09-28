@@ -9,16 +9,23 @@ The primary goal of this assignment is for your team to develop a data wrangling
 
 ## Scope of project
 
-These specifications above are left intentionally vague so that teams have the freedom to explore a topic domain of their choosing; knowledge of a problem domain and motivation to study it will be one of your most helpful tools. The only hard requirements of the project are thus:
+The specifications above are somewhat intentionally vague so that teams have the freedom to explore a topic domain of their choosing
 
-> The construction of your data set and your data pipeline must cover, on average, 3 of our 8 course modules. The amount of work needed to cover each module topic should be the expected contribution from one individual team member. The actual distribution of the work is up to you. These requirements will be formalized via your progress reports, but are flexible and fluid through the course of the project. 
+:::tip 
 
-Here are some examples of how you might scope your project.
+Knowledge of a problem domain and motivation to study it will be one of the most helpful tools in your wrangler's utility belt.
 
-- Your project covers the modules "Normalization", "Cleaning", and "Dashboards". However, you realize that your data sources are already mostly normalized and the thus might only make up 1/2 the contribution from one of your team members. You may decide to add "Data Visualization" to your project to make up the difference.
-- Your project covers the modules "APIs", "SQL", and "Dashboards". Instead of assigning one module topic per person, you decide that 1 of you will work on building your API client and the other 2 will split the work on SQL and Dashboards. 
+:::
 
-These are just examples, and feedback will be provided on your progress reports to help you adjust your scope as needed.
+The only hard requirement is that your project, including any data gathering, cleaning, and processing steps, should have 3 appropriately-scoped *features* that implement material from at least 3 of our 8 course modules.
+
+You should roughly define the complexity of each feature  by the amount of work expected from person for the duration of the project. The actual distribution of work on your team is up to you and your teammates, but the sum of work should roughly equal 3 features. 
+
+If you think work on a feature will take more or less than the equivalent of one person's full effort, you may count it as 1.5 or 0.5 features, etc, with proper justification in your progress reports. You should also mention which course modules these features are from.
+
+Appropriately scoped features will be formalized via feedback on your progress reports, but are flexible and fluid through the course of the project as your approach to your problem develops.
+
+An example project proposal with appropriately-scoped features can be found on the [Progress Report 1](progress_report_1) page.
 
 ## Sample final project rubric
 
@@ -36,12 +43,12 @@ These requirements can be found in Kaggle's documentation [here](https://www.kag
 
 :::note
 
-If applicable, your 'benchmark' solution should represent the bare minimum needed to get an analysis going. Your project should not focus on achieving a high benchmark, but creating a fluid data pipleine using your benchmark solution as an example.
+If applicable, your 'benchmark' solution should represent the bare minimum needed to get an analysis going. Your project should not focus on achieving a high benchmark, but creating a fluid data pipeline using your benchmark solution as an example.
 
 :::
 
 :::tip
 
-In addition to simply having more structure, projects that follow this format will be eligible for extra credit at the end of the semester--one project will be chosen for 10 points extra credit and the highest competition submission for that project will receive another 10 points extra credit on their project grade. It will also be a cool portfolio piece for your team upon graduation.
+In addition to simply having more structure, projects that follow this format will be eligible for extra credit at the end of the semester--one project will be chosen for 10 points extra credit and the highest competition submission for that project will receive another 10 points extra credit on their project grade. It will also be a cool portfolio piece for everyone on your team upon graduation.
 
 :::
