@@ -26,7 +26,7 @@ For our example, let's say we're collecting some field data on a door to door ca
 | 123A S Main St. | John Smith | 4/3c |
 
 As far as volunteer-collected data goes, we could have done a lot worse. At least we, as humans, can make some sense of it:
-> we knocked on the door of two people named Jane and John a few times this week at various times in the afternoon. 
+> We knocked on the door of two people named Jane and John a few times this week at various times in the afternoon. 
 
 However, if we were to try to parse this data programmatically, we would run into some problems. For example:
 - we might want to know how many times we knocked on the door of each person, but we can't do that if we don't know that "Jane Doe" and "Jane Elizabeth Doe" are the same person, or that "Jhn Smith" and "John Smith" are the same person, or even if "John Smith" and "John Smith" are the same person. 
