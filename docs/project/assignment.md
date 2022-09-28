@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Project Goals
 
-The primary goal of this assignment is for your team to develop a data wrangling pipeline that addresses an interesting problem statement, including a curated data set. You will then use this data set and pipeline to demonstrate a preliminary analysis of your data to answer your problem statement. You should use your data pipeline to provide a "benchmark" analysis of your problem statement.
+The primary goal of this assignment is for your team to develop a data wrangling pipeline that addresses an interesting problem statement, including a curated data set. You will then use this data set and pipeline to demonstrate a preliminary/"benchmark" analysis of your data to answer your problem statement.
 
 ## Scope of project
 
