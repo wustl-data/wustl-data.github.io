@@ -25,7 +25,13 @@ For our example, let's say we're collecting some field data on a door to door ca
 | 456 Wrangler Ln | Jane Elizabeth Doe   | 1:00 |
 | 123A S Main St. | John Smith | 4/3c |
 
-As far as volunteer-collected data goes, we could have done a lot worse. At least we, as humans, can make some sense of it: we knocked on the door of two people named Jane and John a few times this week at various times in the afternoon. However, if we were to try to parse this data programmatically, we would run into some problems. For example, we might want to know how many times we knocked on the door of each person, but we can't do that if we don't know that "Jane Doe" and "Jane Elizabeth Doe" are the same person, or that "Jhn Smith" and "John Smith" are the same person, or even if "John Smith" and "John Smith" are the same person. We might also want to know how many times we knocked on the door of each address, but we can't do that if we don't know that "123 Main St" and "123 main street" are the same address. We might want know what time we knocked on the door of each person, but we can't do that if we don't know that "1230" is 30 minutes past "noon".
+As far as volunteer-collected data goes, we could have done a lot worse. At least we, as humans, can make some sense of it:
+> we knocked on the door of two people named Jane and John a few times this week at various times in the afternoon. 
+
+However, if we were to try to parse this data programmatically, we would run into some problems. For example:
+- we might want to know how many times we knocked on the door of each person, but we can't do that if we don't know that "Jane Doe" and "Jane Elizabeth Doe" are the same person, or that "Jhn Smith" and "John Smith" are the same person, or even if "John Smith" and "John Smith" are the same person. 
+- We might also want to know how many times we knocked on the door of each address, but we can't do that if we don't know that "123 Main St" and "123 main street" are the same address. 
+- We might want know what time we knocked on the door of each person, but we can't do that if we don't know that "1230" is 30 minutes past "noon".
 
 At least with the `Time` column, we might be able to rely on some super smart time parsing library to figure out what time it was. However, we can't always rely on accurate `Address` parsing, because there are so many ways to write an address. This small example data set isn't so bad, but we we get to thousands or millions of rows, it becomes effectively impossible to parse the addresses without some kind of manual intervention or expenive geocoding service. However, we can still massively improve the quality of our data set by going by some selected set of rules for how we want to represent addresses, and then cleaning the data to match those rules.
 
