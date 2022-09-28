@@ -1,2 +1,6 @@
 position: 3
 label: "Course Project"
+link:
+  type: 'generated-index'
+  title: "Project"
+  slug: "/project"

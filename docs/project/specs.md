@@ -13,7 +13,7 @@ The specifications above are somewhat intentionally vague so that teams have the
 
 :::tip 
 
-Knowledge of a problem domain and motivation to study it will be one of the most helpful tools in your wrangling utility belt.
+Knowledge of a problem domain and motivation to study it will be two of the most helpful tools in your data wrangling utility belt.
 
 :::
 
