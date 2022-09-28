@@ -7,9 +7,9 @@ sidebar_position: 4
 
 When working with string data, it might seem obvious that we want to handle any typos or misspellings in the data. After all, we do want our data to be "correct".
 
-:::warning
+:::caution Keep In Mind
 
-"correct" is in the eye of the data client
+What is considered "correct" might depend on what's consuming the data.
 
 :::
 
