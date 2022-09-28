@@ -25,12 +25,13 @@ Describe any anticipated roadblocks or big question marks in your project propos
 
 ### Problem Domain/Statement
 
-Our group wants to study memes for our group topic.  We found an example blog post ([dummy link](https://google.com)) that gives an introduction some common data management issues when dealing with memes. We want to explore how to classify memes and merge difference sources of meme data such as from Twitter and Reddit.
+Our group wants to study memes for our group topic.  We found an example blog post ([link](https://towardsdatascience.com/takeaways-from-mentoring-a-data-science-project-4d3c95f17483)) that gives an introduction to some common data management issues when dealing with memes. We want to explore how to classify memes and merge difference sources of meme data such as from Twitter and Reddit.
 
 We chose this topic because memes are fun and can change the world through humor. Understanding the popularity of memes can be a helpful way to achieve an effective messaging campaign. It also provides a rich, defined data set and translates easily to a problem statement.
 
 Potential problem statement: 
 - How accurately can we distinguish a meme from a non-meme?
+
 A potential alternative:
 - Can we predict the popularity of a meme based on its content?
 
