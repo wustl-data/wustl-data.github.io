@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwrangling=self.webpackChunkwrangling||[]).push([[6170],{5506:e=>{e.exports=JSON.parse('{"title":"Project","slug":"/project","permalink":"/project","navigation":{"previous":{"title":"Other Resources","permalink":"/syllabus/resources"},"next":{"title":"Project Specification","permalink":"/project/specs"}}}')}}]);
