@@ -19,7 +19,7 @@ Knowledge of a problem domain and motivation to study it will be one of the most
 
 The only hard requirement is that your project, including any data gathering, cleaning, and processing steps, should have 3 appropriately-scoped *features* that implement material from at least 3 of our 8 course modules.
 
-You should roughly define the complexity of each feature  by the amount of work expected from person for the duration of the project. The actual distribution of work on your team is up to you and your teammates, but the sum of work should roughly equal 3 features. 
+You should roughly define the complexity of each feature  by the amount of work expected from 1 person for the duration of the project. The actual distribution of work on your team is up to you and your teammates, but the sum of work should roughly equal 3 features. 
 
 If you think work on a feature will take more or less than the equivalent of one person's full effort, you may count it as 1.5 or 0.5 features, etc, with proper justification in your progress reports. You should also mention which course modules these features are from.
 
@@ -32,7 +32,7 @@ An example project proposal with appropriately-scoped features can be found on t
 Here is a [link to a sample *final project* rubric](https://docs.google.com/document/d/1rVTQRFsJ18zJON_LUlQkTaPqqOx9npBtaQkTezaPnwE/edit?usp=sharing), slightly modified from last semester. This should not be considered an official rubric until designated as such on this page.
 
 ## Kaggle competition format
-Is is suggested, but not required, that you use the Kaggle Community Competition guidelines to structure your project. The requirements to submit a Community Competition are good measures you may take to share your data wrangling work with anyone.
+Is is suggested, but not required, that you use the Kaggle Community Competition guidelines to structure your project. This might be helpful for those who have a general topic in mind but are struggling coming up with a problem statement. The requirements to submit a Community Competition are good measures you may take to share your data wrangling work with anyone.
 
 These requirements can be found in Kaggle's documentation [here](https://www.kaggle.com/community-competitions-setup-guide). It prompts you to follow these steps in building your project:
 - Create a competition
