@@ -52,3 +52,9 @@ If applicable, your 'benchmark' solution should represent the bare minimum neede
 In addition to simply having more structure, projects that follow this format will be eligible for extra credit at the end of the semester--one project will be chosen for 10 points extra credit and the highest competition submission for that project will receive another 10 points extra credit on their project grade. It will also be a cool portfolio piece for everyone on your team upon graduation.
 
 :::
+
+## Example problem statements from the previous semester:
+- Which quarterbacks are the most overpaid?
+- Which genres are more popular in US vs Non-US markets?
+- Can we use Twitter sentiment analysis to predict stock market performance?
+- How can we simulate and organize COVID-19 simulation data from an agent-based model?

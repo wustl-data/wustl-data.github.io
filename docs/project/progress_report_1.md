@@ -29,6 +29,11 @@ Our group wants to study memes for our group topic.  We found an example blog po
 
 We chose this topic because memes are fun and can change the world through humor. Understanding the popularity of memes can be a helpful way to achieve an effective messaging campaign. It also provides a rich, defined data set and translates easily to a problem statement.
 
+Potential problem statement: 
+- How accurately can we distinguish a meme from a non-meme?
+A potential alternative:
+- Can we predict the popularity of a meme based on its content?
+
 ### Scope
 We aim to cover our 3 total features as follows:
 1. Data Gathering via API (1 feature): We will need to build API clients for both Twitter and Reddit. After consuming the relevant parts of the API for our project, we need to write manipulation scripts to store them in a common format. 
