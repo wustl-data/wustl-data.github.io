@@ -47,4 +47,5 @@ Once the data is clean, it might look like this:
 | 456 WRANGLER LN | JANE DOE   | 1:00 PM |
 | 123 MAIN ST | JOHN SMITH | 3:00 PM |
 
-Now our program can much more easily tell us some basic statistics of the data by grouping on the `Address` and `Name` columns: we knocked on the door of John Smith at 123 MAIN ST three times, and Jane Doe at 456 WRANGLER LN two times.
+Now our program can much more easily tell us some basic statistics of the data by grouping on the `Address` and `Name` columns
+> We knocked on the door of John Smith at 123 MAIN ST three times, and Jane Doe at 456 WRANGLER LN two times.
