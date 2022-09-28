@@ -15,7 +15,7 @@ What is considered "correct" might depend on what's consuming the data.
 
 However, the benefits of correcting typos and misspellings go much deeper than that. To illustrate why, let's look at some address data, which is notoriously [heterogenous](https://pe.usps.com/text/pub28/welcome.htm) and therefore [difficult to parse](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/). Additionally, the data is often entered by hand, which means that there are many opportunities for typos and misspellings.
 
-For our example, let's say we're collecting some field data on a door to door campaign. Our brave field volunteers are well meaning, but aren't exactly trained in the art of data science, and your campaign isn't exactly flush with cash, so your volunteers are given pen and paper as they go door to door, which are then transcribed into a word doc by a different volunteer who can barely read his handwriting,
+For our example, let's say we're collecting some field data on a door to door campaign. Our brave field volunteers are well meaning, but aren't exactly trained in the art of data science, and your campaign isn't exactly flush with cash, so your volunteers are given pen and paper as they go door to door, which are then transcribed into a word doc by a different volunteer who can barely read his handwriting, etc. Here's what we get:
 
 | Address | Name | Time |
 | --- | --- | --- |
