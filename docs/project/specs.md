@@ -32,7 +32,7 @@ An example project proposal with appropriately-scoped features can be found on t
 Here is a [link to a sample *final project* rubric](https://docs.google.com/document/d/1rVTQRFsJ18zJON_LUlQkTaPqqOx9npBtaQkTezaPnwE/edit?usp=sharing), slightly modified from last semester. This should not be considered an official rubric until designated as such on this page.
 
 ## Kaggle competition format
-Is is suggested, but not required, that you use the Kaggle Community Competition guidelines to structure your project. This might be helpful for those who have a general topic in mind but are struggling coming up with a problem statement. The requirements to submit a Community Competition are good measures you may take to share your data wrangling work with anyone.
+Is is suggested, but not required, that you use the Kaggle Community Competition guidelines to structure your project. This might be helpful for those who have a general topic in mind but are struggling coming up with a problem statement. The requirements to submit a Community Competition provide a great example of the types of measures you should take when sharing your data wrangling work with anyone.
 
 These requirements can be found in Kaggle's documentation [here](https://www.kaggle.com/community-competitions-setup-guide). It prompts you to follow these steps in building your project:
 - Create a competition
