@@ -25,3 +25,15 @@ Given a *Salary* table with the following columns:
 | 2  | Alice | 456 Main St | 2019 | 65000 |
 
 What happens if Bob moves and we need to fix his address? How would normalization help with this?
+
+### Save on storage
+
+By reducing the redudancies in the data, we can reduce the amount of memory required to store the data. This is especially important for large datasets.
+
+### Accurate aggregations
+
+Duplicate values can cause problems when you are trying to aggregate data. For example, if you want to calculate the average salary for an employee you might get the wrong answer if you are storing a salary column in a table that stores a time sheet for the employee.
+
+### Semantic understanding
+
+When you are working with a dataset, it is of utmost importance to understand the meaning of the data and how the fields and entities relate to one another. Normalization helps you understand the meaning of the data by providing a clear structure for the data.
