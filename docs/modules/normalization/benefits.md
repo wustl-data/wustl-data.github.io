@@ -17,7 +17,7 @@ Formally we can describe these corruptions as "anomalies" in the data. There are
 
 Given a *Salary* table with the following columns:
 
-| id | name | address | year | salary |
+| id | name | current address | year | salary |
 |----|------|---------|------|--------|
 | 1  | Bob  | 123 Main St | 2018 | 50000 |
 | 2  | Alice | 456 Main St | 2018 | 60000 |
