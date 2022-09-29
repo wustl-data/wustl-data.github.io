@@ -31,18 +31,17 @@ This page is written in Markdown, which doesn't provide a simple way for me to p
    
 ## Molten Data
 
-    | Row | Column   | Value |
-    | --- | -------- | ----- |
-    |  A  | a        | 1     |
-    |  B  | a        | 2     |
-    |  C  | a        | 3     |
-    |  A  | b        | 4     |
-    |  B  | b        | 5     |
-    |  C  | b        | 6     |
-    |  A  | c        | 7     |
-    |  B  | c        | 8     |
-    |  C  | c        | 9     |
-
+| Row | Column   | Value |
+| --- | -------- | ----- |
+|  A  | a        | 1     |
+|  B  | a        | 2     |
+|  C  | a        | 3     |
+|  A  | b        | 4     |
+|  B  | b        | 5     |
+|  C  | b        | 6     |
+|  A  | c        | 7     |
+|  B  | c        | 8     |
+|  C  | c        | 9     |
 
 
 ## A more concrete example
