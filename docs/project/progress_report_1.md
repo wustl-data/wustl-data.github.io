@@ -45,7 +45,7 @@ We aim to cover our 3 total features as follows:
 Adam has more experience with Python and Pandas, so initially he will split work on parts 1 and 3. Bob is interested in databases, so he will handle that component.and help with the Python/Pandas component. Charlie is flexible so he will also help with the API Client code. Bob and Charlie will work together on coming up with a plan for the dashboard and we will reevaluate as a team for the next project report.
 
 ### Timeline:
-The most important aspect of this project is curating and formatting our dataset to be useful. We will spend from now until the next progress report honing in on what a useful data set will look like and making sure we are further scoping our problem directly. Once we have all agreed on what our data set should look like and have a concrete idea of how to synthesize it, we will finish our own components of the code and collaborate on the project where our components intersect (for example, Charlie might work with Bob on translating images from SQL to Pandas effectively).
+The most important aspect of this project is curating and formatting our dataset to be useful. We will spend from now until the next progress report honing in on what a useful data set will look like and making sure we are further scoping our problem appropriately. Once we have all agreed on what our data set should look like and have a concrete idea of how to synthesize it, we will finish our own components of the code and collaborate on the project where our components intersect (for example, Charlie might work with Bob on translating images from SQL to Pandas effectively).
 
 ### Anticipated Roadblocks
 

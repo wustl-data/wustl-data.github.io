@@ -3,7 +3,7 @@ title: Evaluating data cleanliness
 sidebar_position: 6
 ---
 
-Often, we will discover or be handed a fresh data set to our eyes that we need to analyze for quick improvements. Let's go over a few examples of ways we can determine how messy or clean our data is based on the concepts we've discussed.
+Often, we will discover or be handed a fresh data set that we need to analyze for quick improvements. Let's go over a few examples of ways we can determine how messy or clean our data is based on the concepts we've discussed.
 
 ### Data types of fields
 
