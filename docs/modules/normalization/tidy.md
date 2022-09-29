@@ -51,15 +51,5 @@ Again from *Tidy Data*, let's take a look at the example he provides that is a b
 > Use `DataFrame.melt` to convert this Pew survey data from *wide* format into tidy (*long*) data. Use the [documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.melt.html) to help you.
 
 
-| religion | <$10k | $10-20k | $20-30k | $30-40k | $40-50k | $50-75k |
-| -------- | ----- | ------- | ------- | ------- | ------- | ------- |
-| Agnostic | 27    | 34      | 60      | 81      | 76      | 137     |
-| Atheist  | 12    | 27      | 37      | 52      | 35      | 70      |
-| Buddhist | 27    | 21      | 30      | 34      | 33      | 58      |
-| Catholic | 418   | 617     | 732     | 670     | 638     | 1116    |
-| Hindu    | 1     | 9       | 7       | 15      | 11      | 34      |
-| Jewish   | 19    | 19      | 25      | 25      | 30      | 95      |
-| Muslim   | 6     | 10      | 15      | 11      | 10      | 5       |
-| Orthodox | 3     | 6       | 9       | 9       | 5       | 10      |
-| Other    | 15    | 9       | 16      | 19      | 17      | 29      |
-| Unaffiliated | 217 | 244     | 300     | 343     | 293     | 506     |
+<iframe width="100%" height="600px" src="https://replit.com/team/data-wrangling/Melting-wide-form-data"></iframe>
+
