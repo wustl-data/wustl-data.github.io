@@ -13,4 +13,7 @@ In other contexts (including the context of HW1), *normalization* can refer to t
 
 At a very high level, normalized data is data organized according to a particular set of standards that intends to make data easier to understand and query. These standards have formal definitions, but as an introduction we will talk about a more general reframing of normalized data described as 'tidy' data.
 
-Normalization is a property of *relational* data, which is a type of *tabular* data. Tabular = tables. Relational = Tables that have relationships with each other. Normalized = Tables organized and relating to each other according to particular standards.
+Normalization is a property of *relational* data, which is a type of *tabular* data
+- Tabular data: data organized in tables
+- Relational data: tabular data linked by relationships defined by "foreign keys"
+- Normalized data: relational data organized according to particular set of standards.
