@@ -20,8 +20,8 @@ This page is written in Markdown, which doesn't provide a simple way for me to p
 
 :::
 
-> Take a minute to map the data transformations between the two tables. What do you notice? What is being assumed about the nature of the columns in each table? What about the rows? What about data types? Can you determine which table is commonly called the 'wide' format and which is commonly called the 'long' format?
-## Raw Data
+
+### Raw Data
    
    | Row | a | b | c |
    | --- | - | - | - |
@@ -29,7 +29,7 @@ This page is written in Markdown, which doesn't provide a simple way for me to p
    |  B  | 2 | 5 | 8 |
    |  C  | 3 | 6 | 9 |
    
-## Molten Data
+### Molten Data
 
 | Row | Column   | Value |
 | --- | -------- | ----- |
@@ -43,6 +43,8 @@ This page is written in Markdown, which doesn't provide a simple way for me to p
 |  B  | c        | 8     |
 |  C  | c        | 9     |
 
+
+> Take a minute to map the data transformations between the two tables. What do you notice? What is being assumed about the nature of the columns in each table? What about the rows? What about data types? Can you determine which table is commonly called the 'wide' format and which is commonly called the 'long' format?
 
 ## A more concrete example
 
