@@ -1,14 +1,15 @@
 ﻿# Assignment 3
 
-In the previous assignment we cleaned MEC campaign donation data to help us organize and query the dataset. In this assignment, we will implement such organization and querying. 
-
-Example solutions for the previous assignment have been provided in the starter template for this assignment.
-
 :::warning
 
 This assignment document is still under revision. The current draft is provided now for anyone who wants to get a head start. This warning will be removed when the assignment has been fully tested with a working solution.
 
 :::
+
+In the previous assignment we cleaned MEC campaign donation data to help us organize and query the dataset. In this assignment, we will implement such organization and querying. 
+
+Example solutions for the previous assignment have been provided in the starter template for this assignment.
+
 
 :::tip
 
@@ -56,4 +57,3 @@ Unless errors need to be corrected in the test logic, the actual autograder will
 
   -Output: returns a DataFrame that is the result of joining the selected fields from each table in `normalized_frames` according to the foreign key relationships between the tables. After the tables are joined, group by all selected fields and provide a sum of the `Amount` total for the groups.
 
-  
