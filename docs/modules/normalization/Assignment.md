@@ -45,9 +45,9 @@ Unless errors need to be corrected in the test logic, the actual autograder will
 		2. Give the column axis the label `Type` by assigning the label to `contributions.columns.name`.
 		3. Select the appropriate columns.
 		4. Use `DataFrame.stack()` to stack the columns into a single column.
-		5. Give the resulting Series the name `Contributor Name`. 
+		5. Give the resulting Series the name `Contributor Name` with `Series.rename`. 
 
-	4. (20 points) - Implement `split_contributors` to split off the normalized `Contributors` table from the main `Contributions` table. Suggested approach:
+	4. (20 points) - Implement `split_contributors` to split off the normalized `Contributors` table from the main `Contributions` table. We will make the simplifying assumption that `Contributors` to `Addresses` is a one-to-many relationship (code is provided to implement this assumption in this step). Suggested approach:
 		1. Call `stack_contributors` to get a Series of contributors corresponding to each contribution.
 		2. Reset the index (`DataFrame.reset_index()`) to get a DataFrame with columns `Contributor Name` and `Type`.
 		3. Use `DataFrame.GroupBy.first()` to get the first contributor type for each contributor name. 
