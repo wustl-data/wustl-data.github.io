@@ -19,6 +19,16 @@ Knowledge of a problem domain and motivation to study it will be two of the most
 
 The only hard requirement is that your project, including any data gathering, cleaning, and processing steps, should have 3 appropriately-scoped *features* that implement material from at least 3 of our 8 course modules.
 
+Course modules:
+    1. Data Cleaning
+    2. Data Normalization
+    3. Data Aggregation/Querying
+    5. API Clients
+    6. Web Scraping
+    7. Data Visualization/Dashboarding
+    8. SQL/NoSQL Databases
+
+
 You should roughly define the complexity of each feature  by the amount of work expected from 1 person for the duration of the project. The actual distribution of work on your team is up to you and your teammates, but the sum of work should roughly equal 3 features. 
 
 If you think work on a feature will take more or less than the equivalent of one person's full effort, you may count it as 1.5 or 0.5 features, etc, with proper justification in your progress reports. You should also mention which course modules these features are from.
