@@ -21,6 +21,12 @@ Briefly describe a timeline for your project. Which aspects of your work do you 
 
 Describe any anticipated roadblocks or big question marks in your project proposal and potential ways around them.
 
+:::note ADDITION 10/4
+
+Please note on the report whether or not you plan to participate in the Kaggle competition submission.
+
+:::
+
 ## Example:
 
 ### Problem Domain/Statement

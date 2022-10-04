@@ -21,7 +21,7 @@ pd.DataFrame(
 ).set_index(["Name", "Birthday"])
 ```
 
-Multi-indexes are particularly useful when joining columns from different tables, as we'll see in the next module.
+Multi-indexes are particularly useful when joining columns from different tables, as we'll see in the assignment.
 
 ## DataFrame.stack
 

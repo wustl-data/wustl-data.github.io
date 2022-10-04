@@ -65,6 +65,6 @@ In addition to simply having more structure, projects that follow this format wi
 
 ## Example problem statements from the previous semester
 - Which quarterbacks are the most overpaid?
-- Which genres are more popular in US vs Non-US markets?
+- Which movie genres are more popular in US vs Non-US markets?
 - Can we use Twitter sentiment analysis to predict stock market performance?
 - How can we simulate and organize COVID-19 data from an agent-based model?
