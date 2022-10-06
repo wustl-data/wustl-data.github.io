@@ -24,9 +24,9 @@ Given a *Salary* table with the following columns:
 | 1  | Bob  | 123 Main St | 2019 | 55000 |
 | 2  | Alice | 456 Main St | 2019 | 65000 |
 
-<detail><description>What happens if Bob moves and we need to fix his address? How would normalization help with this?</description>
+<details><summary>What happens if Bob moves and we need to fix his address? How would normalization help with this?</summary>
   The updating script would have to update Bob's address in two rows instead of simply one. If we normalized the tables, the update would only have to make 1 change and the integrity of the data would still be intact. This is a simple example, but we can easily follow it to its logical extreme.
-  </detail>
+  </details>
 
 ### Save on storage
 
