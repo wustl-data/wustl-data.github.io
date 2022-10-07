@@ -2,6 +2,8 @@
 
 [Link to assignment on GitHub Classroom](https://classroom.github.com/a/xqUxry8v)
 
+## Due: Thursday, Oct 13
+
 In the previous assignment we cleaned MEC campaign donation data to help us organize and query the dataset. In this assignment, we will implement such organization and querying. 
 
 Example solutions for the previous assignment have been provided in the starter template for this assignment.
