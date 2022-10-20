@@ -12,8 +12,17 @@ You might be thinking about downloading the .csv of the dataset into your projec
 
 :::
 
+### IMPORTANT:
 
+I will be looking at your git histories to track your methodology as your repo progresses. You do not have to do the steps in order, but you do need to follow the red-green-refactor methodology. **Include commits at each red-green-refactor step.**
 
+🔴 - Write a test for a new behavior of your code
+
+🟢 - Write the bare mimimum amount of code to make your test pass
+
+✅✅✅ - Refactor as many times as necessary, in small chunks, keeping your tests green. Commit after each refactoring.
+
+As a courtesy, try to only perform commits at each step. Use the "staging" tree (using `git add`) to manage your files and changes as much as possible between these commits. If you end up with a lot of stray commits, look up how to do a `rebase` or `squash` with your commits. I may ask you to resubmit the assignment if your git history is hard to track.
 
 1. **10 points** - Refactor `test_median_by_undergrad_no_data` and `test_median_by_undergrad_single_major` into a single test using the following process:
     1. Configure the tests to use the `survey` fixture in `conftest.py`.
