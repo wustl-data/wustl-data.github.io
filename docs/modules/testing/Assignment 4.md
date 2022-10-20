@@ -1,5 +1,7 @@
 ## Due: 10/27 5:00 PM
 
+### [[GitHub Classroom - Assignment 4](https://classroom.github.com/a/3RHutrBD)]
+
 *You should assume this assignment will be manually graded by default. Autograder code may be distributed and modified over the course of the week*.
 
 Open the Stack Overflow Developer Survey dataset in this [Kaggle Notebook](https://www.kaggle.com/code/razamh/stack-overflow-developer-survey-analysis). Skim the notebook to get oriented with the data set. Determine which column contains relevant salary data for analysis.
@@ -32,7 +34,7 @@ You may want to download the .csv of the dataset into your project repo for data
 6. **10 points** - Implement the above function
     :::tip
 
-    You may use any resources you find on the internet to implement this function, just cite your sources. You may also check your work using Plotly's ecdf plot generator.
+    You may use any resources you find on the internet to implement this function, just cite your sources. You may also spot-check your work using Plotly's ecdf plot generator.
 
     :::
 
