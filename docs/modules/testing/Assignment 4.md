@@ -42,7 +42,7 @@ As a courtesy, try to only perform commits at each step above. Use the "staging"
 6. **10 points** - Implement the above function 🟢✅
     :::tip
 
-    You may use any resources you find on the internet to implement this function, just cite your sources in the README. You may also spot-check your work using Plotly's ecdf plot generator.
+    You may use any resources you find on the internet to implement this function, just cite your sources in the README. You may also spot-check your work using Plotly's ecdf plot generator and the real .csv data.
 
     :::
 
