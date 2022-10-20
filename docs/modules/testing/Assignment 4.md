@@ -20,7 +20,7 @@ I will be looking at your git histories to track your methodology as your repo p
 
 🟢 - Write the bare mimimum amount of code to make your test pass
 
-✅✅✅ - Refactor as many times as necessary, in small chunks, keeping your tests green. Commit after each refactoring.
+✅✅✅ - Refactor as many times as necessary, in small chunks, keeping your tests green. Commit after each refactoring. Your refactoring steps wont be graded, but it is strongly encouraged to spend more time on this step up front to minimize your time spent on this assignment.
 
 As a courtesy, try to only perform commits at each step above. Use the "staging" tree (using `git add`) to manage your files and changes as much as possible between these commits. If you end up with a lot of stray commits, look up how to do a `rebase` or `squash` with your commits. I may ask you to resubmit the assignment if your git history is hard to track.
 
