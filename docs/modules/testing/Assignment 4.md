@@ -4,11 +4,11 @@
 
 *You should assume this assignment will be manually graded by default. Autograder code may be distributed and modified over the course of the week*.
 
-Open the Stack Overflow Developer Survey dataset in this [Kaggle Notebook](https://www.kaggle.com/code/razamh/stack-overflow-developer-survey-analysis). Skim the notebook to get oriented with the data set. Determine which column contains relevant salary data for analysis.
+Open the Stack Overflow Developer Survey dataset in this [Kaggle Notebook](https://www.kaggle.com/code/razamh/stack-overflow-developer-survey-analysis). Skim the notebook to get oriented with the data set. Determine which column contains relevant salary data for analysis and replace the dummy column names in the starter code.
 
 :::tip
 
-You may want to download the .csv of the dataset into your project repo for data exploration at this step. You are more than welcome to do so, but you'll likely get more out of this assignment without it.
+You might be thinking about downloading the .csv of the dataset into your project repo for data exploration at this step. You are more than welcome to do so, but you'll likely get more out of this assignment without it.
 
 :::
 
