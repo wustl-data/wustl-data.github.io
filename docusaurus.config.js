@@ -83,7 +83,7 @@ const config = {
           { to: 'resources', label: 'Resources', position: 'left' },
           { to: 'project', 'label': 'Project', position: 'left' },
           { label: 'Piazza', href: 'https://piazza.com/wustl/fall2022/cse314adcds510/home', position: 'right' },
-          { label: 'GradeScope', href: 'https://www.gradescope.com/courses/409551', position: 'right' }
+          { label: 'GradeScope', href: 'https://wustl.instructure.com/courses/91017/external_tools/3422?display=borderless', position: 'right' }
         ],
       },
       footer: {
