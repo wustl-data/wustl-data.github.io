@@ -24,7 +24,7 @@ I will be looking at your git histories to track your methodology as your repo p
 
 :::
 
-🟢 - Write the bare mimimum amount of code to make your test pass. If needed, fix the errors in your test one-by-one until it passes.
+🟢 - Write the bare mimimum amount of code to make your test pass. If you're unsure where to begin, try the approach of fixing the errors displayed in the terminal from the test run one-by-one until you get to green.
 
 ✅✅✅ - Refactor as many times as necessary, in small chunks, keeping your tests green. Commit after each refactoring. 
 
@@ -38,7 +38,7 @@ As a courtesy, try to only perform commits at each step above. Use the "staging"
 
 
 1. **10 points** - Refactor `test_median_by_undergrad_no_data` and `test_median_by_undergrad_single_major` into a single test using the following process:
-    1. Configure the tests to use the `survey` fixture in `conftest.py`. ✅
+    1. Configure the tests to use the `survey` fixture in [`conftest.py`](https://docs.pytest.org/en/6.2.x/fixture.html#conftest-py-sharing-fixtures-across-multiple-files). ✅
     2. Configure the `survey` fixture to take a `salaries_majors` fixture as input.
     3. Implement the `salaries_majors` fixture to return a 2-element tuple in the format `(salaries, majors)` where `salaries` and `majors` are lists. 
     4. Use the [params](https://docs.pytest.org/en/latest/how-to/fixtures.html#parametrizing-fixtures) argument to pass both test cases to the fixtures. ✅
