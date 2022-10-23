@@ -14,7 +14,7 @@ You might be thinking about downloading the .csv of the dataset into your projec
 
 ### IMPORTANT:
 
-I will be looking at your git histories to track your methodology as your repo progresses. You do not have to do the steps in order, but you do need to follow the red-green-refactor methodology. **Include commits at each red-green-refactor step.** You might need multiple cycles of R-G-R to fulfill the requirements at each step.
+I will be looking at your git histories to track your methodology as your repo progresses. You do not have to do steps 1-10 in order, but you do need to follow the red-green-refactor methodology. **Include commits at each red-green-refactor step.** You might need multiple cycles of R-G-R to fulfill the requirements at each step.
 
 🔴 - Write a test for a new behavior of your code. "red" steps will be subjectively evaluated to determine your test coverage--i.e. how closely your tests reflect the correctness of your code.
 
