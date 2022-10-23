@@ -16,11 +16,23 @@ You might be thinking about downloading the .csv of the dataset into your projec
 
 I will be looking at your git histories to track your methodology as your repo progresses. You do not have to do steps 1-10 in order, but you do need to follow the red-green-refactor methodology. **Include commits at each red-green-refactor step.** You might need multiple cycles of R-G-R to fulfill the requirements at each step.
 
-🔴 - Write a test for a new behavior of your code. "red" steps will be subjectively evaluated to determine your test coverage--i.e. how closely your tests reflect the correctness of your code.
+🔴 - Write a test for a new behavior of your code. Try to cover as much functionality of the function you're trying to implement as you can before proceeding to the green step.
 
-🟢 - Write the bare mimimum amount of code to make your test pass
+:::info NOTE ADDED 10/22
 
-✅✅✅ - Refactor as many times as necessary, in small chunks, keeping your tests green. Commit after each refactoring. Your refactoring steps wont be graded, but it is strongly encouraged to spend more time on this step up front to minimize your time spent on this assignment.
+"🔴" steps will be subjectively evaluated to determine your test coverage--i.e. how closely your tests reflect the correctness of your code in the final solution. You can receive minimum 5 points for testing at least one attribute/behavior of the function accurately.
+
+:::
+
+🟢 - Write the bare mimimum amount of code to make your test pass. If needed, fix the errors in your test one-by-one until it passes.
+
+✅✅✅ - Refactor as many times as necessary, in small chunks, keeping your tests green. Commit after each refactoring. 
+
+:::info NOTE ADDED 10/22
+
+Your refactoring steps wont be graded, but it is strongly encouraged to spend more time on this step up front to battle complexity in your code.
+
+:::
 
 As a courtesy, try to only perform commits at each step above. Use the "staging" tree (using `git add`) to manage your files and changes as much as possible between these commits. If you end up with a lot of stray commits, look up how to do a `rebase` or `squash` with your commits. I may ask you to resubmit the assignment if your git history is hard to track.
 
