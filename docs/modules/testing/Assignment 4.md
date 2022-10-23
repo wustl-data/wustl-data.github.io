@@ -30,7 +30,7 @@ I will be looking at your git histories to track your methodology as your repo p
 
 :::info NOTE ADDED 10/22
 
-Your refactoring steps wont be graded, but it is strongly encouraged to spend more time on this step up front to battle complexity in your code.
+Unless it is explicitly its own step, your refactoring steps wont be graded, but it is strongly encouraged to spend more time on this step up front to battle complexity in your code.
 
 :::
 
