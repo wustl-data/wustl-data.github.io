@@ -41,7 +41,8 @@ As a courtesy, try to only perform commits at each step above. Use the "staging"
     1. Configure the tests to use the `survey` fixture in [`conftest.py`](https://docs.pytest.org/en/6.2.x/fixture.html#conftest-py-sharing-fixtures-across-multiple-files). ✅
     2. Configure the `survey` fixture to take a `salaries_majors` fixture as input.
     3. Implement the `salaries_majors` fixture to return a 2-element tuple in the format `(salaries, majors)` where `salaries` and `majors` are lists. 
-    4. Use the [params](https://docs.pytest.org/en/latest/how-to/fixtures.html#parametrizing-fixtures) argument to pass both test cases to the fixtures. ✅
+    4. Use the [params](https://docs.pytest.org/en/latest/how-to/fixtures.html#parametrizing-fixtures) argument to pass both test cases to the fixtures. 
+    5. Merge your two tests into one. ✅
 
 
 2. **10 points** - Using `groupby.quantile`, write tests for a function `salary_quantile` that returns the 10th, 50th, and 90th salary percentile grouped by undergraduate major. 🔴
