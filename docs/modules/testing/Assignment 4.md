@@ -44,7 +44,7 @@ Instructions for Part 1 updated 10/31
 
 :::
 
-**You may use the implementation in this [https://github.com/wustl-data/4-schlich/tree/6fc24430e945d3ca97f967c14f1b1d09da87c394/tests](example) repo** to guide your refactoring, however you must show at least one intermediate refactoring step. The implementation for this approach was reviewed in class and is available on Zoom. Alternatively, you also may attempt the following process as provided in the original version of the assignment.
+**You may use the implementation in this [example](https://github.com/wustl-data/4-schlich/tree/6fc24430e945d3ca97f967c14f1b1d09da87c394/tests) repo** to guide your refactoring, however you must show at least one intermediate refactoring step. The implementation for this approach was reviewed in class and is available on Zoom. Alternatively, you also may attempt the following process as provided in the original version of the assignment.
     1. Configure the tests to use the `survey` fixture in [`conftest.py`](https://docs.pytest.org/en/6.2.x/fixture.html#conftest-py-sharing-fixtures-across-multiple-files). ✅
     2. Configure the `survey` fixture to take a `salaries_majors` fixture as input.
     3. Implement the `salaries_majors` fixture to return a 2-element tuple in the format `(salaries, majors)` where `salaries` and `majors` are lists. 
