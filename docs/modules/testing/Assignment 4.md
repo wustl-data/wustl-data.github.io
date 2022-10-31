@@ -52,7 +52,7 @@ Instructions for Part 1 updated 10/31
     5. Merge your two tests into one. ✅
 
 
-2. **10 points** - Using `groupby.quantile`, write tests for a function `salary_quantile` that returns the 10th, 50th, and 90th salary percentile grouped by undergraduate major. 🔴
+2. **10 points** - Write tests for a function `salary_quantile` that uses `groupby.quantile` to return the 10th, 50th, and 90th salary percentile grouped by undergraduate major. 🔴
 3. **10 points** - Implement `salary_quantile`. 🟢
 4. **10 points** - Refactor your `median_by_undergrad` function to use the `salary_quantile` function above. ✅✅✅
 
