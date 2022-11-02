@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## Due: Friday, Nov 11
 
-For your second progress report, submit your features using the specification template from [https://en.wikipedia.org/wiki/Behavior-driven_development](https://en.wikipedia.org/wiki/Behavior-driven_development) as follows:
+For your second progress report, submit your features using the specification template from Behavior Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) as follows:
 
 
 ```
