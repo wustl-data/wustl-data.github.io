@@ -14,9 +14,9 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.1",
-    "@docusaurus/preset-classic": "^2.0.1",
-    "@docusaurus/theme-search-algolia": "^2.0.1",
+    "@docusaurus/core": "^2.2.0",
+    "@docusaurus/preset-classic": "^2.2.0",
+    "@docusaurus/theme-search-algolia": "^2.2.0",
     "@fullcalendar/core": "^5.11.3",
     "@fullcalendar/daygrid": "5.11.2",
     "@fullcalendar/scrollgrid": "^5.11.3",
@@ -30,7 +30,7 @@
     "react-script-tag": "^1.1.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.1"
+    "@docusaurus/module-type-aliases": "^2.2.0"
   },
   "browserslist": {
     "production": [

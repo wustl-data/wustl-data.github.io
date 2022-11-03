@@ -23,6 +23,7 @@ Course modules:
     1. Data Cleaning
     2. Data Normalization
     3. Data Aggregation/Querying
+    4. Test-Driven Data
     5. API Clients
     6. Web Scraping
     7. Data Visualization/Dashboarding
@@ -37,12 +38,12 @@ Appropriately scoped features will be formalized via feedback on your progress r
 
 An example project proposal with appropriately-scoped features can be found on the [Progress Report 1](progress_report_1) page.
 
-## Sample final project rubric
+## Final project grading rubric
 
-Here is a [link to a sample *final project* rubric](https://docs.google.com/document/d/1rVTQRFsJ18zJON_LUlQkTaPqqOx9npBtaQkTezaPnwE/edit?usp=sharing), slightly modified from last semester. This should not be considered an official rubric until designated as such on this page.
+Here is a [pdf of the final project grading rubric](/rubric.pdf). It includes guidelines around expectations of documentation, code structure, contributions, your team presentation, etc.
 
-## Kaggle competition format
-Is is suggested, but not required, that you use the Kaggle Community Competition guidelines to structure your project. This might be helpful for those who have a general topic in mind but are struggling coming up with a problem statement. The requirements to submit a Community Competition provide a great example of the types of measures you should take when sharing your data wrangling work with anyone.
+## Kaggle competition format / Extra Credit
+One approach that you use the Kaggle Community Competition guidelines to structure your project. This might be helpful for those who have a general topic in mind but are struggling coming up with a problem statement. The requirements to submit a Community Competition provide a great example of the types of measures you should take when sharing your data wrangling work with anyone.
 
 These requirements can be found in Kaggle's documentation [here](https://www.kaggle.com/community-competitions-setup-guide). It prompts you to follow these steps in building your project:
 - Create a competition
@@ -59,7 +60,7 @@ If applicable, your 'benchmark' solution should represent the bare minimum neede
 
 :::tip
 
-In addition to simply having more structure, projects that follow this format will be eligible for extra credit at the end of the semester--one project will be chosen for 10 points extra credit and the highest competition submission for that project will receive another 10 points extra credit on their project grade. It will also be a cool portfolio piece for everyone on your team upon graduation.
+In addition to simply having more structure, projects that follow this format will be eligible for extra credit at the end of the semester--one project will be chosen for 10 points extra credit and the highest competition submission for that project will receive another 10 points extra credit on their project grade. It would also be a nice portfolio piece for everyone on your team to have to show to prospective employers.
 
 :::
 
