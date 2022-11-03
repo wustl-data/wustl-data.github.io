@@ -23,10 +23,10 @@ poetry add mkdocs
 
 This will add MkDocs to your project's dependencies. 
 
-Follow the Getting Started guide on the MkDocs website to integrate MkDocs into your project. These instructions, like many tutorials, show you how to "bootstrap" a new example MkDocs project from scratch. However, some of you may have already started your project and would like to add MkDocs to your existing codebase. If this is the case, I suggest thinking carefully about the instructions on the Getting Started page and translating the steps to your existing project. If you need to, examine the [configuration](https://www.mkdocs.org/user-guide/configuration/) page in the MkDocs documentation to see what options you can use to customize your project's documentation.
+Follow the MkDocs [Getting Started](https://www.mkdocs.org/getting-started/) guide to integrate MkDocs into your project. These instructions, like many tutorials, show you how to "bootstrap" a new example MkDocs project from scratch. However, some of you may have already started your project and would like to add MkDocs to your existing codebase. If this is the case, I suggest thinking carefully about the instructions on the Getting Started page and translating the steps to your existing project immediately. If you need to, examine the [configuration](https://www.mkdocs.org/user-guide/configuration/) page in the MkDocs documentation to see what options you can use to customize your project's documentation.
 
 ### Theming your documentation
-Add a custom theme to your MkDocs project to give your project some original flair. There are some prepackaged themes on the [MkDocs Community Wiki](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes). Some themes provide a more distinct look out of the box. Others are more minimalistic and require more customization to get the look you want. I usually prefer using `mkdocs-material` for my projects and tweaking some basic settings, but you can use whatever theme you like.
+Add a custom theme to your MkDocs project to give your project some original flair. There are some prepackaged themes on the [MkDocs Community Wiki](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes). Some themes provide a more distinct look out of the box. Others are more minimalistic and require more customization to get the look you want. I usually prefer using [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) for my projects and tweaking some basic settings, but you can use whatever theme you like.
 
 ### Using an API documentation generator
 
@@ -47,13 +47,14 @@ Please include the following sections in your documentation as appropriate:
 
 - [ ] Installation instructions
 - [ ] Getting started guide
-- [ ] BDD-style feature documentation
-- [ ] API documentation
 - [ ] Examples
+- [ ] BDD-style feature documentation (Progress Report 2)
+- [ ] API documentation
 - [ ] Contributing guide
+- [ ] Kaggler's guide (if applicable)
 
 You are welcome to incorporate notebooks into your documentation for your Getting Started guide and Examples. Your contributing guide should include instructions for how to set up your project for development and how to run the tests if you have any.
 
-### Optional: Hosting your documentation
+### Hosting your documentation
 
-If you would like to host your documentation on the web, you can use [GitHub Pages](https://pages.github.com/) or [Read the Docs](https://readthedocs.org/) to host your documentation for free (public repos only). Both of these services have instructions for how to integrate with MkDocs.
+If you would like to (and are able to) host your documentation on the web, you can use [GitHub Pages](https://pages.github.com/) or [Read the Docs](https://readthedocs.org/) to host your documentation for free (public repos only). Both of these services have instructions for how to integrate with MkDocs.
