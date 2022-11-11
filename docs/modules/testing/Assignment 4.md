@@ -1,4 +1,4 @@
-## Due: Tuesday, 11/1 5:00 PM
+## Due: Friday, 11/11 5:00 PM
 
 ### [[GitHub Classroom - Assignment 4](https://classroom.github.com/a/3RHutrBD)]
 
