@@ -16,7 +16,6 @@ You might be thinking about downloading the .csv of the dataset into your projec
 
 I will be looking at your git histories to track your methodology as your repo progresses. You do not have to do steps 1-10 in order, but you do need to follow the red-green-refactor methodology. **Include commits at each red-green-refactor step.** You might need multiple cycles of R-G-R to fulfill the requirements at each step.
 
-🔴 - Write a test for a new behavior of your code. Try to cover as much functionality of the function you're trying to implement as you can before proceeding to the green step.
 
 :::info NOTE ADDED 10/22
 
@@ -37,7 +36,16 @@ Unless it is explicitly its own step, your refactoring steps wont be graded, but
 As a courtesy, try to only perform commits at each step above. Use the "staging" tree (using `git add`) to manage your files and changes as much as possible between these commits. If you end up with a lot of stray commits, look up how to do a `rebase` or `squash` with your commits. I may ask you to resubmit the assignment if your git history is hard to track.
 
 
-1. **10 points** - Refactor `test_median_by_undergrad_no_data` and `test_median_by_undergrad_single_major` into a single test using the following process:
+1. **10 points** - Refactor `test_median_by_undergrad_no_data` and `test_median_by_undergrad_single_major` into a single test. 
+
+    :::note
+
+    Instructions for Part 1 updated 10/31
+
+    :::
+
+    **You may use the implementation in this [example](https://github.com/wustl-data/4-schlich/tree/6fc24430e945d3ca97f967c14f1b1d09da87c394/tests) repo** to guide your refactoring, however you must commit at least one intermediate refactoring step. The implementation for this approach was reviewed in class and is available on Zoom. Alternatively, you also may attempt the following process as provided in the original version of the assignment.
+
     1. Configure the tests to use the `survey` fixture in [`conftest.py`](https://docs.pytest.org/en/6.2.x/fixture.html#conftest-py-sharing-fixtures-across-multiple-files). ✅
     2. Configure the `survey` fixture to take a `salaries_majors` fixture as input.
     3. Implement the `salaries_majors` fixture to return a 2-element tuple in the format `(salaries, majors)` where `salaries` and `majors` are lists. 
@@ -45,7 +53,7 @@ As a courtesy, try to only perform commits at each step above. Use the "staging"
     5. Merge your two tests into one. ✅
 
 
-2. **10 points** - Using `groupby.quantile`, write tests for a function `salary_quantile` that returns the 10th, 50th, and 90th salary percentile grouped by undergraduate major. 🔴
+2. **10 points** - Write tests for a function `salary_quantile` that uses `groupby.quantile` to return the 10th, 50th, and 90th salary percentile grouped by undergraduate major. 🔴
 3. **10 points** - Implement `salary_quantile`. 🟢
 4. **10 points** - Refactor your `median_by_undergrad` function to use the `salary_quantile` function above. ✅✅✅
 
@@ -60,9 +68,9 @@ As a courtesy, try to only perform commits at each step above. Use the "staging"
     :::
 
 
-7. **10 points** Implement tests & a function `salaries_ecdf` that uses your previous functions to return salary ecdfs with undergraduate major as the first index level. 🔴🟢✅
+7. **10 points** Implement tests & a function `salaries_ecdf` that uses your previous functions to return the salary ecdfs for each undergraduate major with the major as the first index level. 🔴🟢✅
 
-8. **10 points** Refactor your implementations to take a `GroupBy` object as input instead of a DataFrame. ✅
+8. **10 points** Refactor your implementations of `salaries_ecdf`, `salary_quantile`, and `median_by_undergrad`, to take a `GroupBy` object as input instead of a DataFrame. ✅
 
 9. **10 points** - Implement tests and function `gt_50_k` using `groupby.filter` to restrict your results to majors where the median salary is at least 50k. 🔴🟢✅
 

@@ -9,7 +9,7 @@ To get an idea of the purposes of branches, let's take a look at a git graph. A 
 
 ![Git Flow DAG](https://wac-cdn.atlassian.com/dam/jcr:8f00f1a4-ef2d-498a-a2c6-8020bb97902f/03%20Release%20branches.svg?cdnVersion=506)
 
-I will go over this workflow in more detail in lecture, but for now try to visualize how this organization can help us work together on code in teams and how it can help us manage our own code.
+You can review more details about the workflow at the provided link, but for now try to visualize how structuring snapshots of the code in this way can help us work together on code in teams and how it can help us manage our own code as we try various approaches to the problems we are trying to solve.
 
 ## Creating a Branch
 
