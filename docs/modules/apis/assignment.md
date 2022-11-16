@@ -5,6 +5,8 @@ title: Assignment 6
 ## Building an API Client for US Census data
 ### Due: 11/29, 5:00 PM
 
+#### [GitHub Classroom Link](https://classroom.github.com/a/wvD_X7WP)
+
 Use the following resources to familiarize yourself with the US Census Web API. Browse/skim these resources and use them as a reference as needed:
 - The [Census API User Guide](https://www.census.gov/data/developers/guidance/api-user-guide.Example_API_Queries.html). 
     - Full PDF guide
@@ -29,7 +31,7 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
     Implement the function `variables` to convert a list of census variables into a comma separated string of the values.
     
 3. **Variable Predicates** (10 points)
-    Implement the function `predicates` to convert a dictionary of `variable: values` into a dictionary of `variable: value_ids` for the categorical variables HISP and SEX.
+    Implement the function `convert_values` to convert a dictionary of `variable: values` into a dictionary of `variable: value_ids` for the categorical variables HISP and SEX.
 
     :::tip
 
@@ -39,7 +41,8 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
 
 
 4. **State Geographies** (10 points)
-    - Write a function that converts a list of states to a string of comma-separated integers using their FIPS codes. Add the prefix `state:` to the list as required by the API.
+    - Implement the function `geographies` that converts a list of state abbreviations to a string of comma-separated FIPS codes. 
+    
 
 5. **County FIPS codes** (10 points)
     - County-level FIPS codes may be found at https://www.census.gov/library/reference/code-lists/ansi.html#county. However, programmatic access to this data will need an outside-the-box approach since the codes are hidden behind a dropdown menu. Inspect a few URLs of the county FIPS codes from different states, then create a function that returns a DataFrame of the county-level FIPS data from a state FIPS code.
