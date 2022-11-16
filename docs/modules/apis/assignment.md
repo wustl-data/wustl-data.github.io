@@ -5,7 +5,7 @@ title: Assignment 6
 ## Building an API Client for US Census data
 ### Due: 11/29, 5:00 PM
 
-#### [GitHub Classroom Link](https://classroom.github.com/a/wvD_X7WP)
+#### [GitHub Classroom Link](https://classroom.github.com/a/bISSMHjc)
 
 Use the following resources to familiarize yourself with the US Census Web API. Browse/skim these resources and use them as a reference as needed:
 - The [Census API User Guide](https://www.census.gov/data/developers/guidance/api-user-guide.Example_API_Queries.html). 
@@ -42,7 +42,7 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
 
 4. **State Geographies** (10 points)
     - Implement the function `geographies` that converts a list of state abbreviations to a string of comma-separated FIPS codes. 
-    
+
 
 5. **County FIPS codes** (10 points)
     - County-level FIPS codes may be found at https://www.census.gov/library/reference/code-lists/ansi.html#county. However, programmatic access to this data will need an outside-the-box approach since the codes are hidden behind a dropdown menu. Inspect a few URLs of the county FIPS codes from different states, then create a function that returns a DataFrame of the county-level FIPS data from a state FIPS code.
