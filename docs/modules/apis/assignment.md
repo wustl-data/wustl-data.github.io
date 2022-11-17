@@ -62,13 +62,27 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
     - Add your `.env` file to your `.gitignore` so that others may not take advantage of your API key.        
     - Install `python-dotenv` using Poetry and use the library to read your API key from your .env into an *environment variable*.
     - Use `os.environ` to load the value from the *environment variable* into your code.
-    
-    - Use the [requests](https://docs.python-requests.org/en/latest/) package to make your API call. 
+    - Implement the function `census.get` to retrieve data from the Census API.
+    - Use the [requests](https://docs.python-requests.org/en/latest/) package to make your API call inside the body of your function. 
     
     :::tip
 
     Utilize your functions from the previous steps to appropriate handle the arguments to your function and provide them to `requests.get`. You should modify `geographies` to handle counties similarly to how you handled states.
 
+    :::
+
+    :::warning Correction
+
+    The type hint for the `geos` argument to `get` was incorrectly given in the starter code as: 
+    ```python
+    dict[str, dict[str, list[str]]],
+    ```
+    The type hint should be:
+    ```python
+    dict[str, list[str]],
+    ```
+    It is also incorrectly listed as `geographies` in the docstring.
+    
     :::
 
     - Your function should return a DataFrame of the data returned by the API.
@@ -79,6 +93,6 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
 
     :::tip
 
-    You may use the asterisk operator as described in the docs to implement this function without retrieving county-level FIPS codes.
+    You may use the asterisk operator as described in the Census API docs to implement this function without retrieving county-level FIPS codes.
 
     :::
