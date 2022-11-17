@@ -18,7 +18,7 @@ Use the following resources to familiarize yourself with the US Census Web API. 
 
 :::tip
 
-This assignment introduces MyPy type checking. In the last module you were introduced to [*type hints*](https://docs.python.org/3/library/typing.html) as a non-binding way to specify the type of a function's argument or its output type. [Mypy](https://mypy.readthedocs.io/en/stable/index.html) is a tool can check your code for type errors before you run it. Type hints and type classes are provided here to help convey the specifications of the assignment. If you would like to check your work using the mypy type checker, run it with `mypy <file/dir/wildcard>` /  in your terminal.
+This assignment introduces MyPy type checking. In the last module you were introduced to [*type hints*](https://docs.python.org/3/library/typing.html) as a non-binding way to specify the type of a function's argument or its output type. [Mypy](https://mypy.readthedocs.io/en/stable/index.html) is a tool can check your code for type errors before you run it. Type hints and type classes are provided here to help convey the specifications of the assignment. The default VS code settings in your Codespaces should provide type checks during linting. If you would like manually to check your code using the mypy type checker, run it with `mypy <file/dir/wildcard>` /  in your terminal.
 
 :::
 
@@ -70,7 +70,7 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
 
     :::
 
-    - Implement the function `census.get` to retrieve data from the Census API using your API key.
+    - Implement the function `client.get` to retrieve data from the Census API using your API key.
     - Use the [requests](https://docs.python-requests.org/en/latest/) package to make your API call inside the body of your function. 
     
     :::tip
