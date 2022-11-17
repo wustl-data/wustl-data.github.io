@@ -62,7 +62,15 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
     - Add your `.env` file to your `.gitignore` so that others may not take advantage of your API key.        
     - Install `python-dotenv` using Poetry and use the library to read your API key from your .env into an *environment variable*.
     - Use `os.environ` to load the value from the *environment variable* into your code.
-    - Implement the function `census.get` to retrieve data from the Census API.
+    - Optional: Modify the provided test for `census.get` to use your API key.
+
+    :::info
+
+    The Census API allows for a certain number of queries per day per IP address as described in their docs. The autograder will be provided with its own API key (set via environment variable) , thus it must use an API key to avoid this limit and so must your implementations.
+
+    :::
+
+    - Implement the function `census.get` to retrieve data from the Census API using your API key.
     - Use the [requests](https://docs.python-requests.org/en/latest/) package to make your API call inside the body of your function. 
     
     :::tip
@@ -82,7 +90,7 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
     dict[str, list[str]],
     ```
     It is also incorrectly listed as `geographies` in the docstring.
-    
+
     :::
 
     - Your function should return a DataFrame of the data returned by the API.
