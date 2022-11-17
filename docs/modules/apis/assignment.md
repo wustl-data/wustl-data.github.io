@@ -43,6 +43,12 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
 4. **State Geographies** (10 points)
     - Implement the function `geographies` that converts a list of state abbreviations to a string of comma-separated FIPS codes. 
 
+    :::tip
+
+    The `us` module is installed on your Codespace/devcontainer. Find its documentation for a convenient conversion function.
+
+    :::
+
 
 5. **County FIPS codes** (10 points)
     - County-level FIPS codes may be found at https://www.census.gov/library/reference/code-lists/ansi.html#county. However, programmatic access to this data will need an outside-the-box approach since the codes are hidden behind a dropdown menu. Inspect a few URLs of the county FIPS codes from different states, then create a function that returns a DataFrame of the county-level FIPS data from a state FIPS code.
