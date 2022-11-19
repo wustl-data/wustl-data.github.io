@@ -72,7 +72,7 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
 
     :::info
 
-    The Census API allows for a certain number of queries per day per IP address as described in their docs. The autograder will be provided with its own API key (set via environment variable) , thus it must use an API key to avoid this limit and so must your implementations.
+    The Census API allows for a certain number of queries per day per IP address as described in their docs. The autograder will be provided with its own API key (set via environment variable), thus it must use an API key to avoid this limit and so must your implementations.
 
     :::
 
