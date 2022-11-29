@@ -7,6 +7,12 @@ title: Assignment 6
 
 #### [GitHub Classroom Link](https://classroom.github.com/a/bISSMHjc)
 
+:::warning Corrections
+
+See the [corrections log](corrections.md) for any adjustments that may be necessary to follow the assignment and submit autograder-compatible code. Please go over this page as necessary to make sure the suggested changes match your code base, and run a `git pull` if I've manually pushed any changes to your repository.
+
+:::
+
 Use the following resources to familiarize yourself with the US Census Web API. Browse/skim these resources and use them as a reference as needed:
 - The [Census API User Guide](https://www.census.gov/data/developers/guidance/api-user-guide.Example_API_Queries.html). 
     - Full PDF guide
@@ -72,41 +78,24 @@ Use the API documentation, test specifications, docstrings, and type hints to gu
 
     :::info
 
-    The Census API allows for a certain number of queries per day per IP address as described in their docs. The autograder will be provided with its own API key (set via environment variable), thus it must use an API key to avoid this limit and so must your implementations.
+    For users without an API key, the Census API allows for a certain number of free queries per day per IP address as described in their docs. The autograder will be provided with its own API key (set via environment variable), thus it must use an API key to avoid this limit and so must your implementations.
 
     :::
 
     - Implement the function `client.get` to retrieve data from the Census API using your API key.
-    - Use the [requests](https://docs.python-requests.org/en/latest/) package to make your API call inside the body of your function. 
+    - Use the [requests](https://docs.python-requests.org/en/latest/) package to make your API call inside the body of your function.
+    - Use the `params` argument of `requests.get` to pass your query parameters to the API in a "Pythonic" fashion.
     
     :::tip
 
-    Utilize your functions from the previous steps to appropriate handle the arguments to your function and provide them to `requests.get`. You should modify `geographies` to handle counties similarly to how you handled states.
-
-    :::
-
-    :::warning Correction
-
-    The type hint for the `geos` argument to `get` was incorrectly given in the starter code as: 
-    ```python
-    dict[str, dict[str, list[str]]],
-    ```
-    The type hint should be:
-    ```python
-    dict[str, list[str]],
-    ```
-    It is also incorrectly listed as `geographies` in the docstring.
+    Utilize your functions from the previous steps to appropriate handle the arguments to your function and provide them to `requests.get`. You might consider adding a `counties`argument to  `geographies` to handle counties similarly to how you handled states.
 
     :::
 
     - Your function should return a DataFrame of the data returned by the API.
 
 
-7. **Data verification** (20 points)
-    - To test that your API key is working properly (without sharing it with me!), write a function that uses the internal Python function `time.time_ns()` to seed a Faker instance. Use this instance to generate ten random integers from 1 to 50 and use these values as FIPS codes to make a query for all counties in these states and save the output to a file named `<your seed value>.csv` in your root directory. Run this function from a Python shell or notebook and include the file in your submission.
+**7. 20 free points**
 
-    :::tip
-
-    You may use the asterisk operator as described in the Census API docs to implement this function without retrieving county-level FIPS codes.
-
-    :::
+~~7. **Data verification** (20 points)~~
+    ~~- To test that your API key is working properly (without sharing it with me!), write a function that uses the internal Python function `time.time_ns()` to seed a Faker instance. Use this instance to generate ten random integers from 1 to 50 and use these values as FIPS codes to make a query for all counties in these states and save the output to a file named `<your seed value>.csv` in your root directory. Run this function from a Python shell or notebook and include the file in your submission.~~
