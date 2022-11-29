@@ -9,7 +9,7 @@ title: Assignment 6
 
 :::warning Corrections
 
-See the [corrections log](corrections.md) for any adjustments that may be necessary to follow the assignment and submit autograder-compatible code. Please go over this page as necessary to make sure the suggested changes match your code base, and run a `git pull` if I've manually pushed any changes to your repository.
+See the [corrections log](corrections) for any adjustments that may be necessary to follow the assignment and submit autograder-compatible code. Please go over this page as necessary to make sure the suggested changes match your code base, and run a `git pull` if I've manually pushed any changes to your repository.
 
 :::
 
